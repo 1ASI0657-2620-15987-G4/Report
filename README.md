@@ -43,8 +43,8 @@
     <td>Fernandez Garfias, Alexander Piero</td>
   </tr>
   <tr>
-    <td>UXXXXXXXXXX</td>
-    <td>Miembro 4</td>
+    <td>U202213553</td>
+    <td>De Las Casas Latour, Sebastián</td>
   </tr>
   <tr>
     <td>UXXXXXXXXXX</td>
