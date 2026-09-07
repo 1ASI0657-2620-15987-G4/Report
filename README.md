@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="./assets/images/shared/logo_upc.png" alt="Logo UPC" width="200"/>
 </p>
@@ -108,7 +109,6 @@
 
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-    - [Video About-The-Team](#video-about-the-team)
 
 - [Referencias Bibliográficas](#referencias-bibliográficas)
 
@@ -299,6 +299,8 @@ Sabremos que esto es cierto cuando los usuarios utilicen la información recopil
 
 
 #### 1.2.2.4. Lean UX Canvas
+
+El **Lean UX Canvas** de TrackTruck fue elaborado considerando la problemática, los supuestos, las hipótesis y los segmentos objetivo definidos durante el proceso Lean UX.
 
 ![Lean UX Canvas](./assets/images/chapter1/lean_ux_canvas.png)
 
@@ -697,7 +699,7 @@ A partir de estos resultados, se identifica que este segmento se caracteriza pri
 
 ### 2.3.1. User Personas
 
-Las siguientes fichas de **User Persona** han sido elaboradas a partir del análisis de los segmentos objetivo de TrackTruck, considerando las necesidades, comportamientos, objetivos y dificultades identificadas durante el proceso de entrevistas. Cada ficha representa un arquetipo de usuario que permite comprender mejor el contexto en el que se desarrollan las operaciones de transporte y las necesidades que TrackTruck busca atender.
+Las siguientes fichas de **User Persona** fueron elaboradas en **UXPressia** a partir del análisis de los segmentos objetivo de TrackTruck, considerando las necesidades, comportamientos, objetivos y dificultades identificadas durante el proceso de entrevistas. Cada ficha representa un arquetipo de usuario que permite comprender mejor el contexto en el que se desarrollan las operaciones de transporte y las necesidades que TrackTruck busca atender.
 
 Para el primer segmento, correspondiente a **empresas de transporte de carga**, se identificó un perfil relacionado con la gestión y supervisión de flotas, cuyo principal objetivo es mantener control sobre los vehículos, conductores y recorridos. Este usuario necesita conocer la ubicación de sus unidades, detectar retrasos o incidencias y mantener comunicación con los conductores para responder oportunamente ante situaciones que puedan afectar el transporte.
 
@@ -755,7 +757,7 @@ La principal coincidencia entre ambos perfiles se encuentra en la necesidad de c
 
 ### 2.3.3. Empathy Mapping
 
-En esta sección se presentan los **Empathy Maps** elaborados para cada uno de los User Personas identificados en los segmentos objetivo de TrackTruck. Estos mapas permiten comprender con mayor profundidad las necesidades, comportamientos, pensamientos, preocupaciones y expectativas de los usuarios dentro de su contexto de trabajo.
+En esta sección se presentan los **Empathy Maps** elaborados en **UXPressia** para cada uno de los User Personas identificados en los segmentos objetivo de TrackTruck. Estos mapas permiten comprender con mayor profundidad las necesidades, comportamientos, pensamientos, preocupaciones y expectativas de los usuarios dentro de su contexto de trabajo.
 
 Para su elaboración, se colocó a cada User Persona como elemento central y se analizaron las observaciones obtenidas durante las entrevistas. A partir de ello, se organizaron los principales hallazgos considerando qué necesita hacer el usuario, qué dice, qué ve, qué hace, qué escucha y qué piensa o siente. Finalmente, se identificaron sus principales **Pains** y **Gains**, los cuales permiten reconocer los problemas que enfrenta actualmente y los resultados que espera obtener.
 
@@ -782,7 +784,7 @@ Sus principales preocupaciones están relacionadas con la dificultad para superv
 
 ### 2.3.4. As-Is Scenario Mapping
 
-En esta sección se presentan los **As-Is Scenario Mapping** elaborados para los User Personas de cada segmento objetivo. Estos escenarios representan la manera en que los usuarios realizan actualmente sus actividades de supervisión y coordinación del transporte de carga **sin contar con TrackTruck**, permitiendo identificar sus acciones, pensamientos y emociones durante las diferentes etapas de una operación.
+En esta sección se presentan los **As-Is Scenario Mapping** elaborados en **LucidChart** para los User Personas de cada segmento objetivo. Estos escenarios representan la manera en que los usuarios realizan actualmente sus actividades de supervisión y coordinación del transporte de carga **sin contar con TrackTruck**, permitiendo identificar sus acciones, pensamientos y emociones durante las diferentes etapas de una operación.
 
 Para su elaboración, el equipo inició con una etapa de preparación tomando como referencia los User Personas, las entrevistas y los hallazgos obtenidos durante el Needfinding. Posteriormente, se realizó una lluvia de ideas individual para identificar las principales actividades, pensamientos y emociones experimentadas por cada usuario. Los resultados fueron revisados en conjunto y agrupados en diferentes fases que representan el desarrollo de una operación de transporte.
 
@@ -814,3 +816,397 @@ Durante este proceso, Andrea necesita consultar constantemente información sobr
 
 
 
+
+# Capítulo III: Requirements Specification
+
+En esta sección se especifican los principales requisitos de **TrackTruck** a partir de la información obtenida durante las entrevistas y el proceso de Needfinding. Los hallazgos identificados permiten comprender las necesidades, dificultades y objetivos de los segmentos analizados y utilizarlos como base para definir las funcionalidades que deberá ofrecer la solución.
+
+La especificación de requisitos comprende el **To-Be Scenario Mapping**, las **User Stories**, el **Impact Map** y el **Product Backlog**, permitiendo transformar las necesidades identificadas en requisitos concretos para el desarrollo de TrackTruck.
+
+## 3.1. To-Be Scenario Mapping
+
+En esta sección se presentan los **To-Be Scenario Mapping** elaborados en **LucidChart** para los User Personas de TrackTruck. A diferencia del As-Is Scenario Mapping, que representa la forma en que los usuarios realizan actualmente sus actividades, el escenario To-Be permite representar cómo podría mejorar su experiencia mediante el uso de TrackTruck.
+
+Para su elaboración, el equipo tomó como punto de partida los problemas y oportunidades identificados en los **As-Is Scenario Mapping**. Posteriormente, se realizó una lluvia de ideas individual sobre posibles mejoras en la experiencia de cada usuario. Las propuestas fueron revisadas y agrupadas por el equipo para establecer las fases principales del nuevo escenario.
+
+Finalmente, los escenarios To-Be fueron comparados con los escenarios As-Is para identificar los principales cambios que TrackTruck podría generar en las actividades, pensamientos y emociones de los usuarios. Cada escenario se encuentra organizado mediante las filas **Phases, Doing, Thinking y Feeling**.
+
+### 1. To-Be Scenario Mapping del primer segmento: Empresas de transporte de carga
+
+El primer escenario corresponde a **Carlos Mendoza**, supervisor de flota y representante del segmento de empresas de transporte de carga. El escenario representa cómo podría desarrollar sus actividades de supervisión utilizando TrackTruck para acceder de manera centralizada a información sobre vehículos, conductores y recorridos.
+
+Las fases identificadas son **Preparación del viaje, Inicio del recorrido, Monitoreo en tiempo real, Gestión de incidencias y Finalización del viaje**.
+
+Con TrackTruck, Carlos podría consultar la ubicación y recorrido de los vehículos desde una misma plataforma, identificar paradas, retrasos o incidencias y comunicarse con los conductores cuando sea necesario. Al finalizar el viaje, podría consultar el historial de la operación y revisar la información registrada durante el recorrido.
+
+En comparación con el escenario As-Is, se busca reducir la necesidad de consultar información mediante diferentes medios y disminuir la incertidumbre sobre el estado de los vehículos durante los recorridos. Como resultado, Carlos tendría mayor visibilidad sobre las operaciones y una mejor capacidad de respuesta ante incidencias.
+
+![To-Be Scenario Mapping - Carlos Mendoza](assets/images/chapter3/to-be-scenario-map1.png)
+
+### 2. To-Be Scenario Mapping del segundo segmento: Operadores y empresas de logística
+
+El segundo escenario corresponde a **Andrea Salazar**, coordinadora de operaciones y representante del segmento de operadores y empresas de logística. El escenario representa cómo podría coordinar y supervisar diferentes operaciones de transporte mediante TrackTruck.
+
+Las fases identificadas son **Planificación de operaciones, Coordinación del transporte, Monitoreo de operaciones, Gestión de incidencias y Evaluación de resultados**.
+
+Con TrackTruck, Andrea podría consultar desde una misma plataforma la información relacionada con vehículos, conductores, rutas y recorridos. Durante las operaciones podría visualizar su progreso, identificar retrasos o incidencias y comunicarse con los conductores cuando requiera información adicional.
+
+Al finalizar las operaciones, podría consultar el historial de los recorridos y las incidencias registradas, facilitando la revisión de lo ocurrido durante cada viaje y mejorando la trazabilidad de las operaciones.
+
+En comparación con el escenario As-Is, TrackTruck permitiría reducir la dispersión de información y facilitar la supervisión simultánea de las operaciones. De esta manera, Andrea podría acceder con mayor rapidez a información relevante y tomar decisiones con una visión más completa del estado de los transportes.
+
+![To-Be Scenario Mapping - Andrea Salazar](assets/images/chapter3/to-be-scenario-map2.png)
+
+<div style="page-break-after: always;"></div>
+
+
+
+## 3.2. User Stories
+
+En esta sección se presentan los principales requisitos funcionales y arquitectónicos identificados para **TrackTruck** a partir del análisis realizado durante las entrevistas, el Needfinding y los escenarios To-Be.
+
+Las User Stories describen las necesidades de los usuarios utilizando el formato **"Como..., deseo..., para..."**, mientras que los criterios de aceptación permiten establecer las condiciones necesarias para considerar cada historia como completada.
+
+Asimismo, se identifican las funcionalidades principales que afectan la estructura de la aplicación, los escenarios de atributos de calidad, las restricciones arquitectónicas y las principales preocupaciones arquitectónicas del sistema.
+
+
+
+### Primary Functionality (Primary User Stories)
+
+Las siguientes User Stories representan las funcionalidades principales de TrackTruck y los requisitos que tienen mayor influencia sobre la estructura de la aplicación.
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con |
+|---|---|---|---|---|
+| **EP01** | Gestión de empresa | Epic orientado al registro y administración de la empresa que utilizará TrackTruck. | - | - |
+| US01 | Registrar empresa | Como representante de una empresa de transporte o logística, deseo registrar mi empresa para comenzar a gestionar mis operaciones de transporte en TrackTruck. | **Scenario 1: Registro exitoso** <br> **Given** que ingreso los datos obligatorios de la empresa, <br> **When** confirmo el registro, <br> **Then** el sistema registra la empresa correctamente. | EP01 |
+| US02 | Visualizar información de la empresa | Como responsable de operaciones, deseo consultar la información de mi empresa para verificar los datos registrados. | **Scenario 1: Consulta exitosa** <br> **Given** que la empresa se encuentra registrada, <br> **When** accedo a su información, <br> **Then** el sistema muestra los datos correspondientes. | EP01 |
+| **EP02** | Gestión de vehículos | Epic orientado al registro y administración de los vehículos utilizados en las operaciones de transporte. | - | - |
+| US03 | Registrar vehículo | Como supervisor de flota, deseo registrar un vehículo para incluirlo en las operaciones de transporte de mi empresa. | **Scenario 1: Registro exitoso** <br> **Given** que ingreso los datos obligatorios del vehículo, <br> **When** confirmo el registro, <br> **Then** el sistema almacena el vehículo y lo muestra como disponible. | EP02 |
+| US04 | Consultar vehículos | Como supervisor de flota, deseo visualizar los vehículos registrados para conocer las unidades disponibles de la empresa. | **Scenario 1: Vehículos disponibles** <br> **Given** que existen vehículos registrados, <br> **When** accedo a la sección de vehículos, <br> **Then** el sistema muestra las unidades pertenecientes a la empresa. | EP02 |
+| US05 | Actualizar información de vehículo | Como supervisor de flota, deseo actualizar la información de un vehículo para mantener sus datos correctos. | **Scenario 1: Actualización exitosa** <br> **Given** que selecciono un vehículo existente, <br> **When** modifico sus datos y confirmo los cambios, <br> **Then** el sistema almacena la información actualizada. | EP02 |
+| **EP03** | Gestión de conductores | Epic orientado al registro y administración de los conductores involucrados en las operaciones de transporte. | - | - |
+| US06 | Registrar conductor | Como supervisor de flota, deseo registrar un conductor para asignarlo posteriormente a las operaciones de transporte. | **Scenario 1: Registro exitoso** <br> **Given** que ingreso los datos obligatorios del conductor, <br> **When** confirmo el registro, <br> **Then** el sistema almacena al conductor correctamente. | EP03 |
+| US07 | Consultar conductores | Como supervisor de flota, deseo visualizar los conductores registrados para conocer el personal disponible para las operaciones. | **Scenario 1: Consulta exitosa** <br> **Given** que existen conductores registrados, <br> **When** accedo a la sección de conductores, <br> **Then** el sistema muestra la información correspondiente. | EP03 |
+| US08 | Actualizar información de conductor | Como supervisor de flota, deseo actualizar los datos de un conductor para mantener su información vigente. | **Scenario 1: Actualización exitosa** <br> **Given** que selecciono un conductor registrado, <br> **When** modifico y guardo sus datos, <br> **Then** el sistema actualiza la información del conductor. | EP03 |
+| **EP04** | Gestión de rutas y viajes | Epic orientado a la planificación y administración de los recorridos realizados por los vehículos. | - | - |
+| US09 | Registrar ruta | Como responsable de operaciones, deseo registrar una ruta indicando su origen y destino para utilizarla en las operaciones de transporte. | **Scenario 1: Ruta registrada** <br> **Given** que ingreso información válida sobre el origen y destino, <br> **When** confirmo el registro, <br> **Then** el sistema almacena la ruta correctamente. | EP04 |
+| US10 | Crear viaje | Como responsable de operaciones, deseo crear un viaje para organizar una nueva operación de transporte. | **Scenario 1: Creación exitosa** <br> **Given** que existen los datos necesarios para la operación, <br> **When** creo un nuevo viaje, <br> **Then** el sistema registra la operación correctamente. | EP04 |
+| US11 | Asignar vehículo a viaje | Como responsable de operaciones, deseo asignar un vehículo a un viaje para determinar qué unidad realizará el recorrido. | **Scenario 1: Asignación exitosa** <br> **Given** que existe un viaje y un vehículo disponible, <br> **When** asigno el vehículo, <br> **Then** el sistema relaciona la unidad con el viaje. | EP04 |
+| US12 | Asignar conductor a viaje | Como responsable de operaciones, deseo asignar un conductor a un viaje para establecer quién realizará el recorrido. | **Scenario 1: Asignación exitosa** <br> **Given** que existe un viaje y un conductor disponible, <br> **When** realizo la asignación, <br> **Then** el sistema relaciona al conductor con el viaje. | EP04 |
+| US13 | Consultar viajes activos | Como responsable de operaciones, deseo visualizar los viajes activos para conocer qué operaciones se encuentran actualmente en ejecución. | **Scenario 1: Consulta de viajes** <br> **Given** que existen viajes activos, <br> **When** accedo a las operaciones actuales, <br> **Then** el sistema muestra los viajes que se encuentran en ejecución. | EP04 |
+| **EP05** | Monitoreo en tiempo real | Epic orientado a proporcionar visibilidad sobre la ubicación y el recorrido de los vehículos durante las operaciones. | - | - |
+| US14 | Visualizar ubicación del vehículo | Como supervisor de flota, deseo visualizar la ubicación actual de un vehículo para conocer dónde se encuentra durante el viaje. | **Scenario 1: Ubicación disponible** <br> **Given** que el vehículo está realizando un viaje y existe información de ubicación disponible, <br> **When** consulto la operación, <br> **Then** el sistema muestra su ubicación actual en el mapa. | EP05 |
+| US15 | Visualizar recorrido del viaje | Como responsable de operaciones, deseo visualizar el recorrido realizado por un vehículo para supervisar el progreso de la operación. | **Scenario 1: Recorrido disponible** <br> **Given** que existe información de geolocalización del viaje, <br> **When** visualizo el recorrido, <br> **Then** el sistema representa en el mapa el trayecto registrado. | EP05 |
+| US16 | Identificar paradas durante el recorrido | Como supervisor de flota, deseo identificar las paradas realizadas durante un viaje para comprender mejor el desarrollo del recorrido. | **Scenario 1: Parada registrada** <br> **Given** que el vehículo ha permanecido detenido durante el recorrido, <br> **When** consulto el viaje, <br> **Then** el sistema muestra la parada registrada. | EP05 |
+| US17 | Identificar retrasos en el viaje | Como responsable de operaciones, deseo identificar retrasos durante un viaje para tomar decisiones oportunamente. | **Scenario 1: Retraso identificado** <br> **Given** que el progreso de una operación presenta un retraso registrado, <br> **When** consulto su estado, <br> **Then** el sistema muestra la situación correspondiente. | EP05 |
+| **EP06** | Gestión de incidencias | Epic orientado al registro y consulta de situaciones inesperadas ocurridas durante los viajes. | - | - |
+| US18 | Registrar incidencia | Como conductor, deseo registrar una incidencia durante el recorrido para informar a la empresa sobre una situación que afecta el viaje. | **Scenario 1: Incidencia registrada** <br> **Given** que el conductor se encuentra realizando un viaje, <br> **When** registra la información de una incidencia, <br> **Then** el sistema la relaciona con la operación correspondiente. | EP06 |
+| US19 | Consultar incidencias de un viaje | Como responsable de operaciones, deseo visualizar las incidencias de un viaje para conocer los problemas ocurridos durante el recorrido. | **Scenario 1: Consulta exitosa** <br> **Given** que existen incidencias registradas, <br> **When** consulto el viaje, <br> **Then** el sistema muestra las incidencias asociadas. | EP06 |
+| **EP07** | Comunicación con conductores | Epic orientado a facilitar la comunicación entre los responsables de la empresa y los conductores. | - | - |
+| US20 | Contactar al conductor | Como responsable de operaciones, deseo iniciar una llamada con el conductor asignado para comunicarme rápidamente cuando necesite información sobre el viaje. | **Scenario 1: Inicio de comunicación** <br> **Given** que existe un conductor asignado al viaje, <br> **When** selecciono la opción para contactarlo, <br> **Then** el sistema permite iniciar la comunicación con el conductor. | EP07 |
+| **EP08** | Historial y trazabilidad | Epic orientado a mantener y consultar información histórica sobre las operaciones realizadas. | - | - |
+| US21 | Consultar historial de viajes | Como responsable de operaciones, deseo consultar los viajes realizados anteriormente para revisar las operaciones de transporte de la empresa. | **Scenario 1: Historial disponible** <br> **Given** que existen viajes finalizados, <br> **When** accedo al historial, <br> **Then** el sistema muestra las operaciones anteriores. | EP08 |
+| US22 | Consultar detalle de viaje finalizado | Como responsable de operaciones, deseo consultar el detalle de un viaje finalizado para revisar el vehículo, conductor, ruta, recorrido e incidencias relacionadas. | **Scenario 1: Detalle disponible** <br> **Given** que selecciono un viaje finalizado, <br> **When** solicito visualizar sus detalles, <br> **Then** el sistema muestra la información registrada durante la operación. | EP08 |
+| US23 | Consultar detalle de vehículo | Como supervisor de flota, deseo consultar el detalle de un vehículo para conocer su información y los viajes asociados. | **Scenario 1: Consulta exitosa** <br> **Given** que existe un vehículo registrado, <br> **When** selecciono el vehículo, <br> **Then** el sistema muestra su información disponible. | EP02 |
+| US24 | Consultar detalle de conductor | Como supervisor de flota, deseo consultar el detalle de un conductor para conocer su información y los viajes en los que ha participado. | **Scenario 1: Consulta exitosa** <br> **Given** que existe un conductor registrado, <br> **When** selecciono al conductor, <br> **Then** el sistema muestra su información disponible. | EP03 |
+| US25 | Consultar rutas registradas | Como responsable de operaciones, deseo consultar las rutas registradas para seleccionar o revisar los recorridos utilizados por la empresa. | **Scenario 1: Rutas disponibles** <br> **Given** que existen rutas registradas, <br> **When** accedo a la sección de rutas, <br> **Then** el sistema muestra las rutas disponibles. | EP04 |
+| US26 | Consultar detalle de viaje activo | Como responsable de operaciones, deseo consultar el detalle de un viaje activo para conocer su vehículo, conductor, ruta y estado actual. | **Scenario 1: Viaje activo** <br> **Given** que existe un viaje en ejecución, <br> **When** selecciono el viaje, <br> **Then** el sistema muestra la información actual de la operación. | EP04 |
+| US27 | Iniciar viaje | Como conductor, deseo iniciar el viaje que me fue asignado para indicar que la operación de transporte ha comenzado. | **Scenario 1: Inicio exitoso** <br> **Given** que tengo un viaje asignado pendiente, <br> **When** confirmo el inicio, <br> **Then** el sistema cambia el estado del viaje a en curso. | EP04 |
+| US28 | Finalizar viaje | Como conductor, deseo finalizar mi viaje para indicar que la operación de transporte ha concluido. | **Scenario 1: Finalización exitosa** <br> **Given** que existe un viaje en curso, <br> **When** confirmo su finalización, <br> **Then** el sistema registra el viaje como finalizado. | EP04 |
+| US29 | Visualizar estado de un viaje | Como responsable de operaciones, deseo visualizar el estado de un viaje para conocer si se encuentra pendiente, en curso o finalizado. | **Scenario 1: Estado disponible** <br> **Given** que existe un viaje registrado, <br> **When** consulto su información, <br> **Then** el sistema muestra su estado actual. | EP04 |
+| US30 | Visualizar vehículos en mapa | Como supervisor de flota, deseo visualizar los vehículos que se encuentran realizando viajes en un mapa para supervisar la flota desde una vista centralizada. | **Scenario 1: Vehículos activos** <br> **Given** que existen vehículos realizando viajes, <br> **When** accedo al mapa de monitoreo, <br> **Then** el sistema muestra sus ubicaciones disponibles. | EP05 |
+| US31 | Seleccionar vehículo desde el mapa | Como supervisor de flota, deseo seleccionar un vehículo desde el mapa para consultar rápidamente la información de su operación actual. | **Scenario 1: Selección de vehículo** <br> **Given** que el mapa muestra un vehículo activo, <br> **When** selecciono su marcador, <br> **Then** el sistema muestra información relacionada con el viaje. | EP05 |
+| US32 | Consultar última ubicación conocida | Como responsable de operaciones, deseo consultar la última ubicación conocida de un vehículo para disponer de información cuando no exista una actualización reciente. | **Scenario 1: Sin actualización reciente** <br> **Given** que temporalmente no existe una nueva ubicación, <br> **When** consulto el vehículo, <br> **Then** el sistema muestra la última ubicación registrada e indica que puede estar desactualizada. | EP05 |
+| US33 | Visualizar progreso del recorrido | Como responsable de operaciones, deseo visualizar el progreso de un recorrido para conocer el avance de un vehículo hacia su destino. | **Scenario 1: Viaje en curso** <br> **Given** que el vehículo se encuentra realizando un viaje, <br> **When** consulto el recorrido, <br> **Then** el sistema muestra la información disponible sobre su progreso. | EP05 |
+| US34 | Consultar información de una parada | Como supervisor de flota, deseo consultar una parada identificada durante un recorrido para conocer dónde ocurrió dentro del viaje. | **Scenario 1: Parada disponible** <br> **Given** que existe una parada registrada, <br> **When** selecciono la parada, <br> **Then** el sistema muestra su información asociada. | EP05 |
+| US35 | Visualizar incidencias en el recorrido | Como responsable de operaciones, deseo visualizar las incidencias asociadas al recorrido para identificar dónde ocurrieron los problemas durante el viaje. | **Scenario 1: Incidencias disponibles** <br> **Given** que existen incidencias asociadas al viaje, <br> **When** consulto el recorrido, <br> **Then** el sistema muestra las incidencias registradas. | EP06 |
+| US36 | Consultar detalle de incidencia | Como responsable de operaciones, deseo consultar el detalle de una incidencia para comprender la situación reportada durante el viaje. | **Scenario 1: Consulta exitosa** <br> **Given** que existe una incidencia registrada, <br> **When** selecciono la incidencia, <br> **Then** el sistema muestra su información correspondiente. | EP06 |
+| US37 | Consultar incidencias anteriores | Como supervisor de flota, deseo consultar incidencias ocurridas en operaciones anteriores para revisar los problemas registrados durante los viajes. | **Scenario 1: Historial disponible** <br> **Given** que existen incidencias anteriores, <br> **When** accedo al historial de incidencias, <br> **Then** el sistema muestra los registros disponibles. | EP06 |
+| US38 | Contactar conductor desde un viaje | Como responsable de operaciones, deseo acceder a la opción de llamada desde el detalle de un viaje para contactar rápidamente al conductor asignado. | **Scenario 1: Conductor asignado** <br> **Given** que el viaje tiene un conductor asignado, <br> **When** selecciono la opción de llamada, <br> **Then** el sistema permite iniciar la comunicación con dicho conductor. | EP07 |
+| US39 | Filtrar historial de viajes | Como responsable de operaciones, deseo filtrar los viajes anteriores para encontrar con mayor facilidad una operación específica. | **Scenario 1: Aplicación de filtro** <br> **Given** que existen viajes registrados, <br> **When** aplico un criterio disponible, <br> **Then** el sistema muestra los viajes que cumplen con dicho criterio. | EP08 |
+| US40 | Consultar historial de un vehículo | Como supervisor de flota, deseo consultar los viajes realizados por un vehículo para revisar su participación en operaciones anteriores. | **Scenario 1: Historial disponible** <br> **Given** que el vehículo ha participado en viajes, <br> **When** consulto su historial, <br> **Then** el sistema muestra sus operaciones anteriores. | EP08 |
+| US41 | Consultar historial de un conductor | Como supervisor de flota, deseo consultar los viajes realizados por un conductor para revisar las operaciones en las que participó. | **Scenario 1: Historial disponible** <br> **Given** que el conductor ha participado en viajes, <br> **When** consulto su historial, <br> **Then** el sistema muestra las operaciones asociadas. | EP08 |
+| US42 | Consultar historial de una ruta | Como responsable de operaciones, deseo consultar los viajes realizados sobre una ruta para revisar las operaciones asociadas a dicho recorrido. | **Scenario 1: Operaciones existentes** <br> **Given** que existen viajes asociados a la ruta, <br> **When** consulto su historial, <br> **Then** el sistema muestra las operaciones registradas. | EP08 |
+| **EP09** | Dashboard de operaciones | Epic orientado a proporcionar una vista general del estado de las operaciones de transporte de la empresa. | - | - |
+| US43 | Visualizar resumen de operaciones | Como responsable de operaciones, deseo visualizar un resumen de las operaciones para conocer rápidamente el estado general de los transportes gestionados. | **Scenario 1: Información disponible** <br> **Given** que existen operaciones registradas, <br> **When** accedo al dashboard, <br> **Then** el sistema muestra un resumen del estado de las operaciones. | EP09 |
+| US44 | Visualizar viajes activos en dashboard | Como responsable de operaciones, deseo visualizar los viajes activos desde el dashboard para acceder rápidamente a las operaciones que requieren seguimiento. | **Scenario 1: Viajes activos** <br> **Given** que existen viajes en ejecución, <br> **When** accedo al dashboard, <br> **Then** el sistema muestra las operaciones activas. | EP09 |
+| US45 | Visualizar incidencias actuales | Como responsable de operaciones, deseo visualizar las incidencias asociadas a operaciones activas para identificar situaciones que requieren atención. | **Scenario 1: Incidencias existentes** <br> **Given** que existen incidencias en operaciones activas, <br> **When** accedo al resumen de operaciones, <br> **Then** el sistema muestra las incidencias correspondientes. | EP09 |
+| **EP10** | Acceso y cuentas | Epic orientado al acceso de los usuarios autorizados a la plataforma TrackTruck. | - | - |
+| US46 | Iniciar sesión | Como usuario registrado, deseo iniciar sesión para acceder a las funciones de TrackTruck correspondientes a mi cuenta. | **Scenario 1: Credenciales válidas** <br> **Given** que ingreso credenciales válidas, <br> **When** solicito iniciar sesión, <br> **Then** el sistema permite el acceso a la plataforma. <br><br> **Scenario 2: Credenciales inválidas** <br> **Given** que ingreso credenciales incorrectas, <br> **When** intento iniciar sesión, <br> **Then** el sistema rechaza el acceso e informa que las credenciales no son válidas. | EP10 |
+| US47 | Cerrar sesión | Como usuario autenticado, deseo cerrar mi sesión para finalizar de forma segura mi acceso a TrackTruck. | **Scenario 1: Cierre exitoso** <br> **Given** que tengo una sesión activa, <br> **When** selecciono cerrar sesión, <br> **Then** el sistema finaliza mi sesión y restringe el acceso a las funciones protegidas. | EP10 |
+| US48 | Recuperar contraseña | Como usuario registrado, deseo recuperar mi contraseña para volver a acceder a TrackTruck si olvido mis credenciales. | **Scenario 1: Solicitud válida** <br> **Given** que mi correo se encuentra registrado, <br> **When** solicito recuperar mi contraseña, <br> **Then** el sistema inicia el procedimiento de recuperación. | EP10 |
+| US49 | Consultar perfil | Como usuario autenticado, deseo consultar mi perfil para visualizar la información asociada a mi cuenta. | **Scenario 1: Perfil disponible** <br> **Given** que tengo una sesión activa, <br> **When** accedo a mi perfil, <br> **Then** el sistema muestra la información correspondiente a mi cuenta. | EP10 |
+| US50 | Actualizar perfil | Como usuario autenticado, deseo actualizar la información de mi perfil para mantener mis datos vigentes. | **Scenario 1: Actualización exitosa** <br> **Given** que modifico información válida de mi perfil, <br> **When** guardo los cambios, <br> **Then** el sistema actualiza mis datos. | EP10 |
+
+<div style="page-break-after: always;"></div>
+
+
+
+### Quality Attribute Scenarios
+
+Los siguientes escenarios representan atributos de calidad relevantes para TrackTruck. Cada escenario especifica la fuente del estímulo, el estímulo recibido, el ambiente en el que ocurre, el artefacto afectado, la respuesta esperada y una medida verificable de dicha respuesta.
+
+| ID | Atributo | Fuente de estímulo | Estímulo | Medioambiente | Artefacto | Respuesta | Medida de respuesta |
+|---|---|---|---|---|---|---|---|
+| QA01 | Rendimiento | Responsable de operaciones | Solicita visualizar la ubicación actual de un vehículo | Operación normal con múltiples viajes activos | Módulo de monitoreo | El sistema obtiene y presenta la ubicación disponible del vehículo | La información solicitada debe mostrarse en un máximo de 3 segundos bajo condiciones normales |
+| QA02 | Disponibilidad | Supervisor de flota | Intenta consultar una operación activa | Durante una operación de transporte | Plataforma TrackTruck | El sistema mantiene disponibles las funciones necesarias para consultar las operaciones | Disponibilidad mensual objetivo igual o superior al 99 % |
+| QA03 | Seguridad | Usuario no autorizado | Intenta acceder a información perteneciente a una empresa | Sistema funcionando normalmente | API y datos empresariales | El sistema rechaza la solicitud y evita mostrar información no autorizada | El 100 % de solicitudes sin autorización válida a recursos protegidos deben ser rechazadas |
+| QA04 | Usabilidad | Responsable de operaciones | Necesita encontrar un viaje activo y visualizar su ubicación | Uso normal de la plataforma | Interfaz de monitoreo | El sistema permite localizar la operación y acceder al mapa mediante una navegación clara | Al menos el 90 % de los usuarios de prueba debe completar la tarea sin asistencia |
+| QA05 | Confiabilidad | Sistema de geolocalización | Se interrumpe temporalmente la recepción de una nueva ubicación | Vehículo realizando un viaje | Módulo de monitoreo | El sistema conserva la última ubicación conocida e informa que la información puede estar desactualizada | No se debe mostrar una ubicación antigua como si fuera una actualización en tiempo real |
+| QA06 | Escalabilidad | Empresas usuarias | Aumenta la cantidad de vehículos y viajes monitoreados simultáneamente | Periodo de alta actividad | Backend y servicios de monitoreo | El sistema continúa procesando las solicitudes sin degradación crítica | El tiempo de respuesta de las operaciones principales debe mantenerse por debajo de 5 segundos bajo la carga objetivo definida para las pruebas |
+| QA07 | Recuperabilidad | Servicio o infraestructura | Se produce una interrupción inesperada durante el registro de información | Operación normal | Backend y persistencia | El sistema evita dejar información parcialmente registrada o inconsistente | Las operaciones transaccionales incompletas deben revertirse sin generar registros inconsistentes |
+
+<div style="page-break-after: always;"></div>
+
+
+
+
+### Constraints
+
+Las restricciones arquitectónicas establecen condiciones que deberán ser consideradas durante el diseño y desarrollo de TrackTruck.
+
+| ID | Restricción | Descripción |
+|---|---|---|
+| CON01 | Aplicación web | TrackTruck deberá contar con una interfaz web responsive que permita su utilización desde computadoras y dispositivos móviles compatibles. |
+| CON02 | Conectividad | Las funcionalidades de monitoreo en tiempo real dependerán de una conexión a Internet para enviar y recibir información actualizada. |
+| CON03 | Geolocalización | El seguimiento de los vehículos dependerá de la disponibilidad de información de geolocalización proporcionada durante los recorridos. |
+| CON04 | Base de datos | La información relacionada con empresas, vehículos, conductores, rutas, viajes e incidencias deberá almacenarse de forma persistente. |
+| CON05 | Servicios de mapas | La representación visual de ubicaciones y recorridos requerirá la integración con una tecnología o servicio de mapas compatible con la plataforma. |
+| CON06 | Seguridad de acceso | La información perteneciente a cada empresa deberá estar protegida frente al acceso de usuarios no autorizados. |
+| CON07 | Compatibilidad web | La interfaz deberá ser compatible con navegadores web modernos utilizados en computadoras y dispositivos móviles. |
+
+<div style="page-break-after: always;"></div>
+
+
+
+
+### Architectural Concerns
+
+Las siguientes preocupaciones arquitectónicas representan aspectos con un impacto significativo sobre las decisiones de diseño de TrackTruck.
+
+| ID | Architectural Concern | Descripción |
+|---|---|---|
+| AC01 | Monitoreo en tiempo real | La arquitectura debe permitir recibir, procesar y presentar actualizaciones de ubicación de los vehículos durante los viajes. |
+| AC02 | Seguridad y aislamiento de información | La información de cada empresa debe permanecer protegida y no debe ser accesible por usuarios pertenecientes a otras organizaciones. |
+| AC03 | Disponibilidad | Las funciones de seguimiento deben permanecer disponibles durante las operaciones de transporte, debido a que pueden ser necesarias para supervisar viajes activos. |
+| AC04 | Escalabilidad | La solución debe permitir incrementar progresivamente la cantidad de empresas, vehículos, conductores y operaciones sin requerir cambios estructurales significativos. |
+| AC05 | Trazabilidad | La arquitectura debe permitir mantener relaciones consistentes entre empresas, vehículos, conductores, rutas, viajes, ubicaciones e incidencias. |
+| AC06 | Integridad de datos | La información registrada durante las operaciones debe mantenerse consistente, especialmente durante la creación y finalización de viajes y el registro de incidencias. |
+| AC07 | Integración de geolocalización | La arquitectura debe permitir integrar los mecanismos necesarios para obtener y representar información geográfica sin acoplar excesivamente la lógica principal a un proveedor específico. |
+| AC08 | Mantenibilidad | Los componentes relacionados con gestión de flotas, viajes, monitoreo e incidencias deben mantenerse claramente separados para facilitar modificaciones y evolución futura de la plataforma. |
+
+<div style="page-break-after: always;"></div>
+
+
+
+# 3.3. Impact Mapping
+
+El **Impact Map** de TrackTruck fue elaborado en **UXPressia**. Este permite relacionar el objetivo de negocio del producto con los actores involucrados, los impactos esperados y las funcionalidades necesarias para alcanzarlos.
+
+![Impact Map - TrackTruck](assets/images/chapter3/impact-map.png)
+
+<div style="page-break-after: always;"></div>
+
+
+
+## Business Goal
+
+Mejorar la visibilidad, el control y la trazabilidad de las operaciones de transporte de carga.
+
+## Personas
+
+- **Carlos Mendoza:** Supervisor de flota de una empresa de transporte de carga.
+- **Andrea Salazar:** Coordinadora de operaciones de una empresa logística.
+
+## Impacts
+
+**Carlos Mendoza**
+- Tener mayor visibilidad sobre la ubicación de los vehículos.
+- Detectar retrasos, paradas e incidencias con mayor rapidez.
+- Mejorar la comunicación con los conductores.
+- Mantener mayor control sobre vehículos y viajes.
+
+**Andrea Salazar**
+- Supervisar varias operaciones desde un mismo lugar.
+- Centralizar la información de los viajes.
+- Mejorar la trazabilidad de las operaciones.
+- Tomar decisiones con información más actualizada.
+
+<div style="page-break-after: always;"></div>
+
+
+## Deliverables
+
+- Monitoreo de vehículos en tiempo real.
+- Visualización de rutas y recorridos.
+- Gestión de paradas, retrasos e incidencias.
+- Comunicación con conductores.
+- Gestión de vehículos, conductores, rutas y viajes.
+- Dashboard de operaciones.
+- Historial de viajes.
+
+## User Stories
+
+Algunas User Stories relacionadas con el Impact Map son:
+
+- **US14:** Visualizar ubicación del vehículo.
+- **US15:** Visualizar recorrido del viaje.
+- **US17:** Identificar retrasos en el viaje.
+- **US18:** Registrar incidencia.
+- **US20:** Contactar al conductor.
+- **US21:** Consultar historial de viajes.
+- **US30:** Visualizar vehículos en mapa.
+- **US43:** Visualizar resumen de operaciones.
+
+<div style="page-break-after: always;"></div>
+
+
+
+
+
+## 3.4. Product Backlog
+
+El Product Backlog de **TrackTruck** reúne y prioriza las User Stories identificadas para el desarrollo del producto. El orden se establece principalmente según el valor que cada historia aporta a las empresas de transporte de carga y operadores logísticos, priorizando las funcionalidades relacionadas con el monitoreo, seguimiento de viajes, gestión de incidencias y trazabilidad de las operaciones.
+
+La estimación se realiza mediante **Story Points**, utilizando los valores 1, 2, 3, 5 y 8 según la complejidad relativa de cada historia.
+
+| **# Orden** | **User Story Id** | **Título** | **Descripción** | **Story Points** |
+|---:|---|---|---|---:|
+| 1 | US14 | Visualizar ubicación del vehículo | Como supervisor de flota, deseo visualizar la ubicación actual de un vehículo para conocer dónde se encuentra durante el viaje. | 8 |
+| 2 | US30 | Visualizar vehículos en mapa | Como supervisor de flota, deseo visualizar los vehículos que se encuentran realizando viajes en un mapa para supervisar la flota desde una vista centralizada. | 8 |
+| 3 | US15 | Visualizar recorrido del viaje | Como responsable de operaciones, deseo visualizar el recorrido realizado por un vehículo para supervisar el progreso de la operación. | 8 |
+| 4 | US10 | Crear viaje | Como responsable de operaciones, deseo crear un viaje para organizar una nueva operación de transporte. | 5 |
+| 5 | US13 | Consultar viajes activos | Como responsable de operaciones, deseo visualizar los viajes activos para conocer qué operaciones se encuentran actualmente en ejecución. | 5 |
+| 6 | US26 | Consultar detalle de viaje activo | Como responsable de operaciones, deseo consultar el detalle de un viaje activo para conocer su vehículo, conductor, ruta y estado actual. | 5 |
+| 7 | US17 | Identificar retrasos en el viaje | Como responsable de operaciones, deseo identificar retrasos durante un viaje para tomar decisiones oportunamente. | 5 |
+| 8 | US16 | Identificar paradas durante el recorrido | Como supervisor de flota, deseo identificar las paradas realizadas durante un viaje para comprender mejor el desarrollo del recorrido. | 5 |
+| 9 | US18 | Registrar incidencia | Como conductor, deseo registrar una incidencia durante el recorrido para informar a la empresa sobre una situación que afecta el viaje. | 5 |
+| 10 | US19 | Consultar incidencias de un viaje | Como responsable de operaciones, deseo visualizar las incidencias de un viaje para conocer los problemas ocurridos durante el recorrido. | 3 |
+| 11 | US35 | Visualizar incidencias en el recorrido | Como responsable de operaciones, deseo visualizar las incidencias asociadas al recorrido para identificar dónde ocurrieron los problemas durante el viaje. | 5 |
+| 12 | US20 | Contactar al conductor | Como responsable de operaciones, deseo iniciar una llamada con el conductor asignado para comunicarme rápidamente cuando necesite información sobre el viaje. | 5 |
+| 13 | US43 | Visualizar resumen de operaciones | Como responsable de operaciones, deseo visualizar un resumen de las operaciones para conocer rápidamente el estado general de los transportes gestionados. | 5 |
+| 14 | US44 | Visualizar viajes activos en dashboard | Como responsable de operaciones, deseo visualizar los viajes activos desde el dashboard para acceder rápidamente a las operaciones que requieren seguimiento. | 3 |
+| 15 | US45 | Visualizar incidencias actuales | Como responsable de operaciones, deseo visualizar las incidencias asociadas a operaciones activas para identificar situaciones que requieren atención. | 3 |
+| 16 | US33 | Visualizar progreso del recorrido | Como responsable de operaciones, deseo visualizar el progreso de un recorrido para conocer el avance de un vehículo hacia su destino. | 5 |
+| 17 | US09 | Registrar ruta | Como responsable de operaciones, deseo registrar una ruta indicando su origen y destino para utilizarla en las operaciones de transporte. | 3 |
+| 18 | US11 | Asignar vehículo a viaje | Como responsable de operaciones, deseo asignar un vehículo a un viaje para determinar qué unidad realizará el recorrido. | 3 |
+| 19 | US12 | Asignar conductor a viaje | Como responsable de operaciones, deseo asignar un conductor a un viaje para establecer quién realizará el recorrido. | 3 |
+| 20 | US27 | Iniciar viaje | Como conductor, deseo iniciar el viaje que me fue asignado para indicar que la operación de transporte ha comenzado. | 3 |
+| 21 | US28 | Finalizar viaje | Como conductor, deseo finalizar mi viaje para indicar que la operación de transporte ha concluido. | 3 |
+| 22 | US29 | Visualizar estado de un viaje | Como responsable de operaciones, deseo visualizar el estado de un viaje para conocer si se encuentra pendiente, en curso o finalizado. | 2 |
+| 23 | US32 | Consultar última ubicación conocida | Como responsable de operaciones, deseo consultar la última ubicación conocida de un vehículo para disponer de información cuando no exista una actualización reciente. | 3 |
+| 24 | US34 | Consultar información de una parada | Como supervisor de flota, deseo consultar una parada identificada durante un recorrido para conocer dónde ocurrió dentro del viaje. | 3 |
+| 25 | US36 | Consultar detalle de incidencia | Como responsable de operaciones, deseo consultar el detalle de una incidencia para comprender la situación reportada durante el viaje. | 2 |
+| 26 | US38 | Contactar conductor desde un viaje | Como responsable de operaciones, deseo acceder a la opción de llamada desde el detalle de un viaje para contactar rápidamente al conductor asignado. | 3 |
+| 27 | US21 | Consultar historial de viajes | Como responsable de operaciones, deseo consultar los viajes realizados anteriormente para revisar las operaciones de transporte de la empresa. | 5 |
+| 28 | US22 | Consultar detalle de viaje finalizado | Como responsable de operaciones, deseo consultar el detalle de un viaje finalizado para revisar el vehículo, conductor, ruta, recorrido e incidencias relacionadas. | 5 |
+| 29 | US39 | Filtrar historial de viajes | Como responsable de operaciones, deseo filtrar los viajes anteriores para encontrar con mayor facilidad una operación específica. | 3 |
+| 30 | US40 | Consultar historial de un vehículo | Como supervisor de flota, deseo consultar los viajes realizados por un vehículo para revisar su participación en operaciones anteriores. | 3 |
+| 31 | US41 | Consultar historial de un conductor | Como supervisor de flota, deseo consultar los viajes realizados por un conductor para revisar las operaciones en las que participó. | 3 |
+| 32 | US42 | Consultar historial de una ruta | Como responsable de operaciones, deseo consultar los viajes realizados sobre una ruta para revisar las operaciones asociadas a dicho recorrido. | 3 |
+| 33 | US37 | Consultar incidencias anteriores | Como supervisor de flota, deseo consultar incidencias ocurridas en operaciones anteriores para revisar los problemas registrados durante los viajes. | 3 |
+| 34 | US03 | Registrar vehículo | Como supervisor de flota, deseo registrar un vehículo para incluirlo en las operaciones de transporte de mi empresa. | 3 |
+| 35 | US04 | Consultar vehículos | Como supervisor de flota, deseo visualizar los vehículos registrados para conocer las unidades disponibles de la empresa. | 2 |
+| 36 | US05 | Actualizar información de vehículo | Como supervisor de flota, deseo actualizar la información de un vehículo para mantener sus datos correctos. | 2 |
+| 37 | US23 | Consultar detalle de vehículo | Como supervisor de flota, deseo consultar el detalle de un vehículo para conocer su información y los viajes asociados. | 3 |
+| 38 | US06 | Registrar conductor | Como supervisor de flota, deseo registrar un conductor para asignarlo posteriormente a las operaciones de transporte. | 3 |
+| 39 | US07 | Consultar conductores | Como supervisor de flota, deseo visualizar los conductores registrados para conocer el personal disponible para las operaciones. | 2 |
+| 40 | US08 | Actualizar información de conductor | Como supervisor de flota, deseo actualizar los datos de un conductor para mantener su información vigente. | 2 |
+| 41 | US24 | Consultar detalle de conductor | Como supervisor de flota, deseo consultar el detalle de un conductor para conocer su información y los viajes en los que ha participado. | 3 |
+| 42 | US25 | Consultar rutas registradas | Como responsable de operaciones, deseo consultar las rutas registradas para seleccionar o revisar los recorridos utilizados por la empresa. | 2 |
+| 43 | US01 | Registrar empresa | Como representante de una empresa de transporte o logística, deseo registrar mi empresa para comenzar a gestionar sus operaciones de transporte en TrackTruck. | 5 |
+| 44 | US02 | Visualizar información de la empresa | Como responsable de operaciones, deseo consultar la información de mi empresa para verificar los datos registrados. | 2 |
+| 45 | US46 | Iniciar sesión | Como usuario registrado, deseo iniciar sesión para acceder a las funciones de TrackTruck correspondientes a mi cuenta. | 3 |
+| 46 | US47 | Cerrar sesión | Como usuario autenticado, deseo cerrar mi sesión para finalizar de forma segura mi acceso a TrackTruck. | 1 |
+| 47 | US48 | Recuperar contraseña | Como usuario registrado, deseo recuperar mi contraseña para volver a acceder a TrackTruck si olvido mis credenciales. | 3 |
+| 48 | US49 | Consultar perfil | Como usuario autenticado, deseo consultar mi perfil para visualizar la información asociada a mi cuenta. | 2 |
+| 49 | US50 | Actualizar perfil | Como usuario autenticado, deseo actualizar la información de mi perfil para mantener mis datos vigentes. | 2 |
+
+<div style="page-break-after: always;"></div>
+
+
+
+
+### Product Backlog en Trello
+
+El Product Backlog de **TrackTruck** fue gestionado en **Trello**, donde las User Stories fueron organizadas y priorizadas de acuerdo con el valor que aportan al negocio. Asimismo, se realizó la estimación de cada historia mediante Story Points utilizando los valores 1, 2, 3, 5 y 8.
+
+A continuación, se presenta la captura del Product Backlog gestionado en Trello:
+
+![Product Backlog - TrackTruck](assets/images/chapter3/product-backlog.png)
+
+**Enlace público del Product Backlog:**  
+[Ver Product Backlog de TrackTruck en Trello](URL_TRELLO)
+
+
+
+<div style="page-break-after: always;"></div>
+
+# Conclusiones
+
+## Conclusiones y recomendaciones
+
+A partir del desarrollo de la AV1, se definió la problemática que **TrackTruck** busca atender: la dificultad de las empresas de transporte de carga y operadores logísticos para centralizar el monitoreo de vehículos, recorridos, comunicación e incidencias durante sus operaciones.
+
+El proceso Lean UX permitió establecer assumptions e hipótesis relacionadas con la necesidad de contar con mayor visibilidad, control y trazabilidad. Estas hipótesis deberán contrastarse con los resultados reales de las entrevistas y posteriores pruebas con usuarios para determinar si los criterios de éxito planteados se cumplen.
+
+Como siguiente paso, se recomienda continuar validando las necesidades de los segmentos objetivo, ajustar el Product Backlog según los hallazgos obtenidos y priorizar en el roadmap las funcionalidades de mayor valor, principalmente el monitoreo en tiempo real, seguimiento de recorridos, gestión de incidencias, comunicación con conductores e historial de viajes.
+
+<div style="page-break-after: always;"></div>
+
+# Referencias Bibliográficas
+
+Angular. (s. f.). *Angular documentation*. https://angular.dev/
+
+GitHub. (s. f.). *GitHub documentation*. https://docs.github.com/
+
+Git. (s. f.). *Git documentation*. https://git-scm.com/doc
+
+Lucid Software Inc. (s. f.). *Lucidchart*. https://www.lucidchart.com/
+
+Microsoft. (s. f.). *.NET documentation*. https://learn.microsoft.com/dotnet/
+
+Microsoft. (s. f.). *C# documentation*. https://learn.microsoft.com/dotnet/csharp/
+
+OpenAPI Initiative. (s. f.). *OpenAPI Specification*. https://spec.openapis.org/oas/latest.html
+
+Oracle. (s. f.). *Java documentation*. https://docs.oracle.com/en/java/
+
+Swagger. (s. f.). *Swagger documentation*. https://swagger.io/docs/
+
+Trello. (s. f.). *Trello*. https://trello.com/
+
+TypeScript. (s. f.). *TypeScript documentation*. https://www.typescriptlang.org/docs/
+
+UXPressia. (s. f.). *UXPressia*. https://uxpressia.com/
+
+<div style="page-break-after: always;"></div>
+
+# Anexos
+
+## Anexo A. Herramientas utilizadas en el proyecto
+
+| Actividad | Herramienta |
+|---|---|
+| User Personas | UXPressia |
+| Empathy Maps | UXPressia |
+| Impact Map | UXPressia |
+| As-Is Scenario Mapping | LucidChart |
+| To-Be Scenario Mapping | LucidChart |
+| Control y gestión del proyecto | Trello |
+| Control de versiones | GitHub / Git |
+| Flujo de trabajo de Git | GitFlow Workflow |
+
+<div style="page-break-after: always;"></div>
+
+# Links
+
+| Recurso | Enlace |
+|---|---|
+| Repositorio de GitHub | [Ver repositorio](URL_GITHUB) |
+| Tablero de Trello | [Ver tablero](URL_TRELLO) |
+| User Personas - UXPressia | [Ver recurso](URL_UXPRESSIA_USER_PERSONAS) |
+| Empathy Maps - UXPressia | [Ver recurso](URL_UXPRESSIA_EMPATHY_MAPS) |
+| Impact Map - UXPressia | [Ver recurso](URL_UXPRESSIA_IMPACT_MAP) |
+| As-Is Scenario Maps - LucidChart | [Ver recurso](URL_LUCIDCHART_AS_IS) |
+| To-Be Scenario Maps - LucidChart | [Ver recurso](URL_LUCIDCHART_TO_BE) |
