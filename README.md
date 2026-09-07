@@ -800,7 +800,7 @@ Las fases identificadas para este escenario son **Preparación del viaje, Inicio
 
 Durante este proceso, Carlos debe consultar diferentes fuentes de información y mantener comunicación frecuente con los conductores para conocer el estado de las unidades. Los principales puntos negativos aparecen cuando necesita identificar rápidamente retrasos, paradas o incidencias y no dispone de toda la información de manera centralizada.
 
-![As-Is Scenario Mapping - Carlos Mendoza](assets/images/chapter2/as-is-scenario-map1.png)
+![As-Is Scenario Mapping - Carlos Mendoza](assets/images/chapter2/as-is-scenario-map1.jpg)
 
 #### 2. As-Is Scenario Mapping del segundo segmento: Operadores y empresas de logística
 
@@ -810,7 +810,7 @@ Las fases identificadas para este escenario son **Planificación de operaciones,
 
 Durante este proceso, Andrea necesita consultar constantemente información sobre diferentes vehículos y recorridos, además de mantener comunicación con las personas involucradas en cada operación. Los principales puntos negativos se presentan cuando debe supervisar varias operaciones simultáneamente o cuando necesita obtener rápidamente información actualizada sobre un retraso o incidencia.
 
-![As-Is Scenario Mapping - Andrea Salazar](assets/images/chapter2/as-is-scenario-map2.png)
+![As-Is Scenario Mapping - Andrea Salazar](assets/images/chapter2/as-is-scenario-map2.jpg)
 
 <div style="page-break-after: always;"></div>
 
