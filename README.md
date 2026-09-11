@@ -31,8 +31,8 @@
     <th>Apellidos y Nombres</th>
   </tr>
   <tr>
-    <td>UXXXXXXXXXX</td>
-    <td>Miembro 1</td>
+    <td>U20241E406</td>
+    <td>Loa Rojas, Jean Franck</td>
   </tr>
   <tr>
     <td>U20221C803</td>
@@ -45,10 +45,6 @@
   <tr>
     <td>U202213553</td>
     <td>De Las Casas Latour, Sebastián</td>
-  </tr>
-  <tr>
-    <td>UXXXXXXXXXX</td>
-    <td>Miembro 5</td>
   </tr>
 </table>
 
@@ -71,7 +67,7 @@
 
 ![Project Report Collaboration Insights AV1](./assets/images/shared/report_av1.png)
 
-**AV1.** Para la AV1, la elaboración del informe se centró en desarrollar los contenidos establecidos en la rúbrica, incluyendo la presentación de la startup y del producto, el proceso Lean UX, el análisis de competidores, las entrevistas, el Needfinding y la especificación de requisitos mediante User Stories, Impact Map y Product Backlog. Todos los integrantes participaron en la elaboración y revisión del informe, coordinándose mediante reuniones presenciales y reuniones virtuales por Discord, además del uso de GitHub para gestionar y consolidar los avances realizados.
+**AV1.** Para la AV1, la elaboración del informe se centró en desarrollar los contenidos establecidos en la rúbrica, incluyendo la presentación de la startup y del producto, el proceso Lean UX, el análisis de competidores, el diseño y registro previsto de entrevistas, el Needfinding y la especificación de requisitos mediante User Stories, Impact Map y Product Backlog. El trabajo se consolidó en GitHub; la ejecución, evidencia y análisis de las entrevistas se completarán con participantes reales antes de cerrar el avance.
 
 <div style="page-break-after: always;"></div>
 
@@ -127,14 +123,13 @@
 
 En el siguiente cuadro se describen las acciones realizadas y los enunciados de conclusiones por parte del equipo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 7.
 
-| **Avance** | **Integrante** | **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** |
-|---|---|---|---|
-| **AV1** | **Miembro 1** | Investigó y aplicó conceptos de Lean UX para contribuir en la definición de la problemática, los supuestos y las hipótesis de la solución propuesta. | Reconoció la importancia de actualizar continuamente sus conocimientos sobre metodologías UX para comprender mejor las necesidades de los usuarios y orientar el desarrollo del producto. |
-|  | **Rocca Leon, Anhelo Rodrigo** | Aplicó técnicas de análisis de competidores y entrevistas para obtener información relevante sobre el mercado, los usuarios y sus principales necesidades. | Identificó la necesidad de fortalecer continuamente sus conocimientos en investigación y análisis de usuarios para sustentar decisiones durante el desarrollo de soluciones de software. |
-|  | **Fernandez Garfias, Alexander Piero** | Profundizó en técnicas de Needfinding mediante la elaboración de User Personas, User Task Matrix y Empathy Maps para representar las características y necesidades de los usuarios. | Reconoció que el aprendizaje continuo de técnicas de UX y análisis de usuarios permite adaptar las soluciones de software a necesidades y contextos cambiantes. |
-|  | **Miembro 4** | Aplicó nuevos conocimientos en la especificación de requisitos mediante la elaboración y organización de User Stories orientadas a las necesidades identificadas. | Reconoció la importancia de actualizar sus conocimientos sobre gestión y especificación de requisitos para mantener una adecuada relación entre las necesidades del usuario y las funcionalidades del producto. |
-|  | **Miembro 5** | Fortaleció sus conocimientos sobre planificación de productos mediante la elaboración del Impact Map y la organización y priorización del Product Backlog. | Identificó la necesidad del aprendizaje permanente en técnicas de planificación y gestión de productos de software para responder adecuadamente a nuevos requerimientos y cambios del proyecto. |
-|  | **Conclusiones** | **El equipo actualizó y aplicó conocimientos relacionados con Lean UX, investigación de usuarios, análisis de requisitos y planificación del producto, integrándolos en el desarrollo de los capítulos I, II y III del proyecto.** | **El equipo reconoció la importancia del aprendizaje continuo y autónomo para fortalecer sus competencias y adaptar el desarrollo de soluciones de software a las necesidades de los usuarios y a la evolución del proyecto.** |
+| **Integrante y avance** | **Acciones realizadas** | **Conclusiones** |
+|:---:|:---|:---|
+| **Loa Rojas, Jean Franck**<br>**U20241E406 · AV1** | Aplicó conceptos de Lean UX y Needfinding, organizó la identidad de LogiGo y TrackTruck en GitHub y elaboró los Empathy Maps y As-Is Scenario Maps en Miro para relacionar las necesidades de los usuarios con la solución propuesta. | Reconoció que el aprendizaje continuo en arquitectura, investigación UX y gestión colaborativa permite mantener alineados el producto, sus repositorios y las necesidades reales de los usuarios. |
+| **Rocca Leon, Anhelo Rodrigo**<br>**U20221C803 · AV1** | Aplicó técnicas de análisis de competidores y preparó el diseño de entrevistas para obtener información relevante sobre el mercado, los segmentos objetivo y sus principales necesidades durante las operaciones de transporte. | Reconoció que fortalecer continuamente sus conocimientos en investigación y análisis de usuarios permite sustentar mejores decisiones durante el desarrollo de soluciones de software. |
+| **Fernandez Garfias, Alexander Piero**<br>**U202019498 · AV1** | Profundizó en técnicas de Needfinding mediante la elaboración de User Personas, User Task Matrix y Empathy Maps para representar las características, comportamientos y necesidades de los usuarios. | Reconoció que el aprendizaje continuo de técnicas de UX y análisis de usuarios permite adaptar las soluciones de software a necesidades y contextos cambiantes. |
+| **De Las Casas Latour, Sebastián**<br>**U202213553 · AV1** | Aplicó conocimientos de especificación de requisitos mediante la elaboración y organización de User Stories vinculadas con las necesidades identificadas en los segmentos objetivo de TrackTruck. | Reconoció que actualizar sus conocimientos sobre gestión y especificación de requisitos permite conservar la relación entre las necesidades del usuario y las funcionalidades del producto. |
+| **Conclusión grupal · AV1** | **El equipo actualizó y aplicó conocimientos de Lean UX, investigación de usuarios, análisis de requisitos y planificación del producto, integrándolos en el desarrollo de los capítulos I, II y III.** | **El equipo reconoció que el aprendizaje continuo y autónomo fortalece sus competencias y permite adaptar la solución a las necesidades de los usuarios y a la evolución del proyecto.** |
 
 <div style="page-break-after: always;"></div>
 
@@ -159,11 +154,10 @@ Asimismo, TrackTruck mantiene un registro de las operaciones realizadas, incluye
 
 | Foto | Información |
 |---|---|
-| <img src="assets/images/shared/miembro1.png" width="500"/> | **Nombre:** Miembro 1<br><br>**Código:** —<br><br>**Carrera:** Ingeniería de Software<br><br>**Acerca de mí:**<br><br>Soy estudiante de la carrera de Ingeniería de Software en la UPC. Me interesa fortalecer mis conocimientos y habilidades en el desarrollo de soluciones tecnológicas, participando activamente en las diferentes actividades y etapas del proyecto. |
+| <img src="assets/images/shared/miembro1.jpg" width="500" alt="Jean Franck Loa Rojas"/> | **Nombre:** Jean Franck Loa Rojas<br><br>**Código:** U20241E406<br><br>**Carrera:** Ingeniería de Software<br><br>**Acerca de mí:**<br><br>Soy Jean Franck Loa Rojas, estudiante de séptimo ciclo de Ingeniería de Software. Mi fortaleza es trabajar el producto completo: desde el modelado con Domain-Driven Design y la definición de bounded contexts hasta la construcción de servicios backend con Java y Spring Boot, aplicaciones web con Angular y soluciones móviles con Flutter. También organizo repositorios con GitFlow, documento decisiones técnicas y valido que cada componente se integre correctamente. En el equipo aporto criterio arquitectónico, capacidad para convertir requerimientos complejos en implementaciones concretas y disciplina para respaldar cada avance con evidencia. |
 | <img src="assets/images/shared/miembro2.png" width="500"/> | **Nombre:** Anhelo Rodrigo Rocca Leon<br><br>**Código:** U20221C803<br><br>**Carrera:** Ingeniería de Software<br><br>**Acerca de mí:**<br><br>Soy Anhelo Rodrigo Rocca Leon, estudiante de la carrera de Ingeniería de Software en la UPC. Tengo conocimientos en C++, HTML, CSS, JavaScript, C#, Python, Java y Flutter. Me interesa el desarrollo frontend para aplicaciones web y móviles, enfocándome en crear experiencias dinámicas, funcionales y adaptadas a las necesidades de los usuarios. |
 | <img src="assets/images/shared/miembro3.png" width="500"/> | **Nombre:** Alexander Piero Fernandez Garfias<br><br>**Código:** U202019498<br><br>**Carrera:** Ingeniería de Software<br><br>**Acerca de mí:**<br><br>Soy Alexander Piero Fernandez Garfias, estudiante de la carrera de Ingeniería de Software en la UPC. Poseo conocimientos en C++, HTML, CSS, JavaScript, C#, Python, Java y Flutter. Me enfoco en el diseño y desarrollo frontend para aplicaciones web y móviles, aplicando creatividad y buenas prácticas para construir soluciones tecnológicas modernas y eficientes. |
-| <img src="assets/images/shared/miembro4.png" width="500"/> | **Nombre:** Miembro 4<br><br>**Código:** —<br><br>**Carrera:** Ingeniería de Software<br><br>**Acerca de mí:**<br><br>Soy estudiante de la carrera de Ingeniería de Software en la UPC. Busco desarrollar mis competencias en análisis, diseño y construcción de soluciones de software, aplicando los conocimientos adquiridos durante mi formación académica. |
-| <img src="assets/images/shared/miembro5.png" width="500"/> | **Nombre:** Miembro 5<br><br>**Código:** —<br><br>**Carrera:** Ingeniería de Software<br><br>**Acerca de mí:**<br><br>Soy estudiante de la carrera de Ingeniería de Software en la UPC. Tengo interés en seguir aprendiendo sobre tecnologías y metodologías relacionadas con el desarrollo de software, contribuyendo al trabajo colaborativo y al cumplimiento de los objetivos del proyecto. |
+| <img src="assets/images/shared/miembro4.png" width="500" alt="Avatar de Sebastián De Las Casas Latour"/> | **Nombre:** Sebastián De Las Casas Latour<br><br>**Código:** U202213553<br><br>**Carrera:** Ingeniería de Software<br><br>**Acerca de mí:**<br><br>Soy Sebastián De Las Casas Latour, estudiante de Ingeniería de Software en la UPC. En TrackTruck contribuyo a transformar las necesidades de los segmentos objetivo en User Stories claras, criterios de aceptación verificables y una priorización coherente del producto. Me interesa fortalecer mis competencias en análisis, especificación de requisitos y trabajo colaborativo para construir soluciones de software alineadas con problemas reales. |
 
 <div style="page-break-after: always;"></div>
 
@@ -495,7 +489,7 @@ La información obtenida permitirá validar las principales suposiciones plantea
 
 ### 2.2.2. Registro de entrevistas
 
-En esta sección se presenta el registro de las entrevistas realizadas a los usuarios pertenecientes a los segmentos objetivo de **TrackTruck**. Para cada entrevista se registrarán los datos del entrevistado, la evidencia visual, el enlace al video, el timing correspondiente y un resumen de las principales respuestas obtenidas.
+En esta sección se reserva el registro de las entrevistas planificadas con usuarios pertenecientes a los segmentos objetivo de **TrackTruck**. Para cada entrevista se registrarán los datos del entrevistado, la evidencia visual, el enlace al video, el timing correspondiente y un resumen de las principales respuestas obtenidas.
 
 ---
 
@@ -664,32 +658,20 @@ Por completar.
 
 ## 2.2.3. Análisis de entrevistas
 
-A partir de las entrevistas realizadas se analizaron las principales características, necesidades, dificultades y expectativas de los participantes pertenecientes a cada segmento objetivo. El análisis considera aspectos objetivos y subjetivos identificados de manera recurrente en las respuestas, los cuales servirán posteriormente como base para la construcción de los User Personas y demás artefactos de Needfinding.
+Esta sección queda reservada para consolidar evidencia real después de ejecutar las seis entrevistas planificadas: tres con representantes de empresas de transporte de carga y tres con representantes de operadores o empresas de logística. Hasta contar con grabaciones, datos de participantes y respuestas verificables, no se reportan porcentajes ni conclusiones como resultados observados.
 
+El análisis final se realizará por segmento y distinguirá:
 
-### Segmento objetivo 1: Empresas de transporte de carga
+- datos objetivos del participante y su contexto operativo;
+- patrones recurrentes, diferencias y casos atípicos;
+- necesidades, dificultades, comportamientos y herramientas actuales;
+- evidencia que confirma, contradice o modifica las hipótesis de Lean UX;
+- cambios necesarios en User Personas, escenarios, User Stories, Impact Map y Product Backlog.
 
-A partir de las tres entrevistas realizadas a representantes de empresas de transporte de carga, se identificó que el **100 % de los entrevistados considera importante conocer la ubicación de sus vehículos durante el desarrollo de los viajes**. Asimismo, el **66.7 % indicó tener dificultades para obtener de manera inmediata información sobre el estado de un recorrido cuando ocurre un retraso, parada no prevista u otra incidencia**.
-
-Respecto a la comunicación, el **100 % señaló que mantiene contacto con los conductores durante las operaciones**, principalmente cuando necesita conocer el estado del viaje o resolver algún inconveniente. Sin embargo, el **66.7 % manifestó interés en contar con una solución que facilite la comunicación y permita relacionarla con la información del recorrido.
-
-En cuanto a la trazabilidad, el **66.7 % indicó que actualmente la información relacionada con vehículos, conductores, rutas e incidencias se encuentra distribuida entre diferentes medios o herramientas**, dificultando la consulta posterior de lo ocurrido durante una operación.
-
-Finalmente, el **100 % de los entrevistados mostró interés en disponer de una plataforma que centralice la información de sus operaciones de transporte**, destacando como funcionalidades de mayor valor la geolocalización en tiempo real, la visualización de rutas y recorridos, el registro de incidencias, la comunicación con los conductores y el historial de viajes.
-
-Estos resultados permiten identificar como características comunes del segmento la necesidad de **visibilidad en tiempo real, control operativo, comunicación rápida y trazabilidad de los recorridos**. Por ello, TrackTruck podría responder a sus principales necesidades mediante la centralización del monitoreo y la información relacionada con cada operación.
-
-### Segmento objetivo 2: Operadores y empresas de logística
-
-A partir de las tres entrevistas realizadas a representantes de operadores y empresas de logística, se identificó que el **100 % de los entrevistados necesita realizar seguimiento de las operaciones de transporte para conocer su estado y progreso**. Asimismo, el **66.7 % manifestó dificultades para supervisar simultáneamente diferentes vehículos, rutas u operaciones utilizando las herramientas disponibles actualmente**.
-
-El **100 % consideró importante disponer de información actualizada sobre la ubicación y el recorrido de los vehículos**, mientras que el **66.7 % señaló que la identificación oportuna de retrasos, paradas o incidencias constituye una necesidad relevante para coordinar adecuadamente las operaciones logísticas.
-
-Respecto a la información histórica, el **66.7 % manifestó que sería útil disponer de un registro centralizado de viajes, rutas, conductores e incidencias**, debido a que permitiría revisar posteriormente lo ocurrido durante una operación y mejorar su trazabilidad.
-
-Finalmente, el **100 % mostró interés en una plataforma que permita consultar desde un mismo lugar la información relacionada con las operaciones de transporte**. Entre las funcionalidades consideradas más importantes se encuentran el monitoreo en tiempo real, la visualización del recorrido, la identificación de incidencias, la comunicación con los conductores y el acceso al historial de las operaciones.
-
-A partir de estos resultados, se identifica que este segmento se caracteriza principalmente por buscar **información centralizada, trazabilidad, supervisión simultánea de operaciones y capacidad de respuesta ante incidencias**. Estas características respaldan el enfoque de TrackTruck como una herramienta orientada a facilitar la supervisión y gestión de las operaciones de transporte.
+| Segmento | Muestra mínima | Evidencia pendiente | Resultado pendiente |
+|---|---:|---|---|
+| Empresas de transporte de carga | 3 entrevistas | Datos, captura, video, timing, duración y resumen | Patrones y porcentajes calculados sobre respuestas reales |
+| Operadores y empresas de logística | 3 entrevistas | Datos, captura, video, timing, duración y resumen | Patrones y porcentajes calculados sobre respuestas reales |
 
 <div style="page-break-after: always;"></div>
 
@@ -699,7 +681,7 @@ A partir de estos resultados, se identifica que este segmento se caracteriza pri
 
 ### 2.3.1. User Personas
 
-Las siguientes fichas de **User Persona** fueron elaboradas en **UXPressia** a partir del análisis de los segmentos objetivo de TrackTruck, considerando las necesidades, comportamientos, objetivos y dificultades identificadas durante el proceso de entrevistas. Cada ficha representa un arquetipo de usuario que permite comprender mejor el contexto en el que se desarrollan las operaciones de transporte y las necesidades que TrackTruck busca atender.
+Las siguientes fichas de **User Persona** representan arquetipos de investigación construidos a partir de la definición actual de los segmentos objetivo, la problemática y las hipótesis de Lean UX de TrackTruck. Se mantienen como artefactos versionados y deberán validarse o ajustarse con los hallazgos de las entrevistas reales.
 
 Para el primer segmento, correspondiente a **empresas de transporte de carga**, se identificó un perfil relacionado con la gestión y supervisión de flotas, cuyo principal objetivo es mantener control sobre los vehículos, conductores y recorridos. Este usuario necesita conocer la ubicación de sus unidades, detectar retrasos o incidencias y mantener comunicación con los conductores para responder oportunamente ante situaciones que puedan afectar el transporte.
 
@@ -759,6 +741,8 @@ La principal coincidencia entre ambos perfiles se encuentra en la necesidad de c
 
 En esta sección se presentan los **Empathy Maps** elaborados en **Miro** para cada uno de los User Personas identificados en los segmentos objetivo de TrackTruck. Estos mapas permiten organizar las necesidades, comportamientos, pensamientos, preocupaciones y expectativas que deben contrastarse con los usuarios dentro de su contexto de trabajo.
 
+**Miro board:** [Open the TrackTruck Empathy Mapping board](https://miro.com/app/board/uXjVHoFb36Q=/)
+
 Para su elaboración se colocó a cada User Persona como elemento central y se organizaron los principales hallazgos considerando qué necesita hacer el usuario, qué dice, qué ve, qué hace, qué escucha y qué piensa o siente. También se identificaron sus **Pains** y **Gains**.
 
 #### 1. Empathy Map del primer segmento: Empresas de transporte de carga
@@ -784,7 +768,9 @@ Sus principales preocupaciones están relacionadas con la dificultad para superv
 
 ### 2.3.4. As-Is Scenario Mapping
 
-En esta sección se presentan los **As-Is Scenario Maps** elaborados en **Miro** para los User Personas de cada segmento objetivo. Estos escenarios representan hipótesis preliminares sobre la manera en que los usuarios realizan actualmente sus actividades de supervisión y coordinación del transporte de carga **sin contar con TrackTruck**.
+En esta sección se presentan los **As-Is Scenario Maps** elaborados en **Miro** para los User Personas de cada segmento objetivo. Estos escenarios representan la manera en que los usuarios realizan actualmente sus actividades de supervisión y coordinación del transporte de carga **sin contar con TrackTruck**.
+
+**Miro board:** [Open the TrackTruck As-Is Scenario Mapping board](https://miro.com/app/board/uXjVHoEqlmc=/)
 
 Para su elaboración se tomaron como referencia los User Personas y la información disponible en el informe. Las acciones, pensamientos y emociones se agruparon en cuatro fases para formar una cuadrícula de 16 celdas.
 
@@ -819,13 +805,13 @@ Durante este proceso, Andrea necesita consultar constantemente información sobr
 
 # Capítulo III: Requirements Specification
 
-En esta sección se especifican los principales requisitos de **TrackTruck** a partir de la información obtenida durante las entrevistas y el proceso de Needfinding. Los hallazgos identificados permiten comprender las necesidades, dificultades y objetivos de los segmentos analizados y utilizarlos como base para definir las funcionalidades que deberá ofrecer la solución.
+En esta sección se especifica la línea base de requisitos de **TrackTruck** a partir de la problemática, las hipótesis de Lean UX y los artefactos de Needfinding preparados para los segmentos objetivo. Esta línea base deberá revisarse con los hallazgos obtenidos al completar las entrevistas.
 
 La especificación de requisitos comprende el **To-Be Scenario Mapping**, las **User Stories**, el **Impact Map** y el **Product Backlog**, permitiendo transformar las necesidades identificadas en requisitos concretos para el desarrollo de TrackTruck.
 
 ## 3.1. To-Be Scenario Mapping
 
-En esta sección se presentan los **To-Be Scenario Mapping** elaborados en **LucidChart** para los User Personas de TrackTruck. A diferencia del As-Is Scenario Mapping, que representa la forma en que los usuarios realizan actualmente sus actividades, el escenario To-Be permite representar cómo podría mejorar su experiencia mediante el uso de TrackTruck.
+En esta sección se presentan los **To-Be Scenario Mapping** de los User Personas de TrackTruck como artefactos visuales versionados junto con el reporte. A diferencia del As-Is Scenario Mapping, que representa la forma en que los usuarios realizan actualmente sus actividades, el escenario To-Be permite representar cómo podría mejorar su experiencia mediante el uso de TrackTruck.
 
 Para su elaboración, el equipo tomó como punto de partida los problemas y oportunidades identificados en los **As-Is Scenario Mapping**. Posteriormente, se realizó una lluvia de ideas individual sobre posibles mejoras en la experiencia de cada usuario. Las propuestas fueron revisadas y agrupadas por el equipo para establecer las fases principales del nuevo escenario.
 
@@ -863,7 +849,7 @@ En comparación con el escenario As-Is, TrackTruck permitiría reducir la disper
 
 ## 3.2. User Stories
 
-En esta sección se presentan los principales requisitos funcionales y arquitectónicos identificados para **TrackTruck** a partir del análisis realizado durante las entrevistas, el Needfinding y los escenarios To-Be.
+En esta sección se presentan los principales requisitos funcionales y arquitectónicos propuestos para **TrackTruck** a partir de la problemática, el Needfinding y los escenarios To-Be. Su priorización deberá reconciliarse con los resultados reales de las entrevistas.
 
 Las User Stories describen las necesidades de los usuarios utilizando el formato **"Como..., deseo..., para..."**, mientras que los criterios de aceptación permiten establecer las condiciones necesarias para considerar cada historia como completada.
 
@@ -1001,7 +987,7 @@ Las siguientes preocupaciones arquitectónicas representan aspectos con un impac
 
 # 3.3. Impact Mapping
 
-El **Impact Map** de TrackTruck fue elaborado en **UXPressia**. Este permite relacionar el objetivo de negocio del producto con los actores involucrados, los impactos esperados y las funcionalidades necesarias para alcanzarlos.
+El **Impact Map** de TrackTruck relaciona el objetivo de negocio del producto con los actores involucrados, los impactos esperados y las funcionalidades necesarias para alcanzarlos. El artefacto se mantiene en formato SVG editable y PNG para su visualización dentro del reporte.
 
 ![Impact Map - TrackTruck](assets/images/chapter3/impact-map.png)
 
@@ -1127,16 +1113,15 @@ La estimación se realiza mediante **Story Points**, utilizando los valores 1, 2
 
 
 
-### Product Backlog en Trello
+### Product Backlog visual
 
-El Product Backlog de **TrackTruck** fue gestionado en **Trello**, donde las User Stories fueron organizadas y priorizadas de acuerdo con el valor que aportan al negocio. Asimismo, se realizó la estimación de cada historia mediante Story Points utilizando los valores 1, 2, 3, 5 y 8.
+El Product Backlog de **TrackTruck** se mantiene como una tabla completa y ordenada en este reporte. La vista visual resume las primeras 16 User Stories, agrupadas según su aporte a la visibilidad, las operaciones activas, la respuesta ante incidencias y el control operativo. Las 49 historias conservan su prioridad y estimación mediante Story Points con los valores 1, 2, 3, 5 y 8.
 
-A continuación, se presenta la captura del Product Backlog gestionado en Trello:
+A continuación, se presenta la vista visual versionada del Product Backlog:
 
 ![Product Backlog - TrackTruck](assets/images/chapter3/product-backlog.png)
 
-**Enlace público del Product Backlog:**  
-[Ver Product Backlog de TrackTruck en Trello](URL_TRELLO)
+**Fuente editable:** [Abrir Product Backlog en SVG](assets/images/chapter3/product-backlog.svg)
 
 
 
@@ -1162,8 +1147,6 @@ GitHub. (s. f.). *GitHub documentation*. https://docs.github.com/
 
 Git. (s. f.). *Git documentation*. https://git-scm.com/doc
 
-Lucid Software Inc. (s. f.). *Lucidchart*. https://www.lucidchart.com/
-
 Miro. (s. f.). *Miro visual workspace*. https://miro.com/
 
 Microsoft. (s. f.). *.NET documentation*. https://learn.microsoft.com/dotnet/
@@ -1176,11 +1159,7 @@ Oracle. (s. f.). *Java documentation*. https://docs.oracle.com/en/java/
 
 Swagger. (s. f.). *Swagger documentation*. https://swagger.io/docs/
 
-Trello. (s. f.). *Trello*. https://trello.com/
-
 TypeScript. (s. f.). *TypeScript documentation*. https://www.typescriptlang.org/docs/
-
-UXPressia. (s. f.). *UXPressia*. https://uxpressia.com/
 
 <div style="page-break-after: always;"></div>
 
@@ -1190,12 +1169,12 @@ UXPressia. (s. f.). *UXPressia*. https://uxpressia.com/
 
 | Actividad | Herramienta |
 |---|---|
-| User Personas | UXPressia |
+| User Personas | SVG versionado en GitHub |
 | Empathy Maps | Miro |
-| Impact Map | UXPressia |
+| Impact Map | SVG versionado en GitHub |
 | As-Is Scenario Mapping | Miro |
-| To-Be Scenario Mapping | LucidChart |
-| Control y gestión del proyecto | Trello |
+| To-Be Scenario Mapping | SVG versionado en GitHub |
+| Control y gestión del proyecto | GitHub |
 | Control de versiones | GitHub / Git |
 | Flujo de trabajo de Git | GitFlow Workflow |
 
@@ -1205,10 +1184,13 @@ UXPressia. (s. f.). *UXPressia*. https://uxpressia.com/
 
 | Recurso | Enlace |
 |---|---|
-| Repositorio de GitHub | [Ver repositorio](https://github.com/1ASI0657-2620-15987-G4/tracktruck-report) |
-| Tablero de Trello | [Ver tablero](URL_TRELLO) |
-| User Personas - UXPressia | [Ver recurso](URL_UXPRESSIA_USER_PERSONAS) |
+| Project Report repository | [Open repository](https://github.com/1ASI0657-2620-15987-G4/tracktruck-report) |
+| Landing Page repository | [Open repository](https://github.com/1ASI0657-2620-15987-G4/tracktruck-website) |
+| Web Services repository | [Open repository](https://github.com/1ASI0657-2620-15987-G4/tracktruck-platform) |
+| Frontend Web Application repository | [Open repository](https://github.com/1ASI0657-2620-15987-G4/tracktruck-webapp) |
+| Product Backlog visual | [Ver artefacto](assets/images/chapter3/product-backlog.svg) |
+| User Personas | [Carlos Mendoza](assets/images/chapter2/user-persona1.svg) · [Andrea Salazar](assets/images/chapter2/user-persona2.svg) |
 | Empathy Maps - Miro | [Ver tablero](https://miro.com/app/board/uXjVHoFb36Q=/) |
-| Impact Map - UXPressia | [Ver recurso](URL_UXPRESSIA_IMPACT_MAP) |
+| Impact Map | [Ver artefacto](assets/images/chapter3/impact-map.svg) |
 | As-Is Scenario Maps - Miro | [Ver tablero](https://miro.com/app/board/uXjVHoEqlmc=/) |
-| To-Be Scenario Maps - LucidChart | [Ver recurso](URL_LUCIDCHART_TO_BE) |
+| To-Be Scenario Maps | [Carlos Mendoza](assets/images/chapter3/to-be-scenario-map1.svg) · [Andrea Salazar](assets/images/chapter3/to-be-scenario-map2.svg) |
