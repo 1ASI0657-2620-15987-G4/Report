@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+    <rect width="1800" height="1100" fill="#F5F8F7"/>
+    <rect width="1800" height="132" fill="#123C3A"/>
+    <text x="60" y="58" font-size="34" fill="#FFFFFF" font-weight="800">AS-IS SCENARIO MAP</text>
+    <text x="60" y="101" font-size="24" fill="#BFE3DF" font-weight="500">Andrea Salazar · Logistics Operations Coordinator</text>
+    <rect x="30" y="210" width="160" height="195" rx="18" fill="#123C3A"/>
+<text x="110" text-anchor="middle" y="312" font-size="19" fill="#FFFFFF" font-weight="800">PHASES</text>
+<rect x="210" y="210" width="370" height="195" rx="18" fill="#E7F5F3" stroke="#E0A62F" stroke-width="4" stroke-dasharray="12 8"/>
+<text x="234" y="262" font-size="23" fill="#075E59" font-weight="800">1. Plan operations</text>
+<rect x="592" y="210" width="370" height="195" rx="18" fill="#E7F5F3" stroke="#DCE8E7" stroke-width="4"/>
+<text x="616" y="262" font-size="23" fill="#075E59" font-weight="800">2. Coordinate dispatch</text>
+<rect x="974" y="210" width="370" height="195" rx="18" fill="#E7F5F3" stroke="#E07A5F" stroke-width="4"/>
+<text x="998" y="262" font-size="23" fill="#075E59" font-weight="800">3. Monitor portfolio</text>
+<rect x="1356" y="210" width="370" height="195" rx="18" fill="#E7F5F3" stroke="#E07A5F" stroke-width="4"/>
+<text x="1380" y="262" font-size="23" fill="#075E59" font-weight="800">4. Resolve and evaluate</text>
+<rect x="30" y="415" width="160" height="195" rx="18" fill="#123C3A"/>
+<text x="110" text-anchor="middle" y="517" font-size="19" fill="#FFFFFF" font-weight="800">DOING</text>
+<rect x="210" y="415" width="370" height="195" rx="18" fill="#FFFFFF" stroke="#E0A62F" stroke-width="4" stroke-dasharray="12 8"/>
+<text x="234" y="467" font-size="20" fill="#263238" font-weight="500">Reviews schedules, vehicles</text>
+<text x="234" y="496" font-size="20" fill="#263238" font-weight="500">and routes across multiple</text>
+<text x="234" y="525" font-size="20" fill="#263238" font-weight="500">sources.</text>
+<rect x="592" y="415" width="370" height="195" rx="18" fill="#FFFFFF" stroke="#DCE8E7" stroke-width="4"/>
+<text x="616" y="467" font-size="20" fill="#263238" font-weight="500">Confirms assignments and</text>
+<text x="616" y="496" font-size="20" fill="#263238" font-weight="500">communicates plans to</text>
+<text x="616" y="525" font-size="20" fill="#263238" font-weight="500">stakeholders.</text>
+<rect x="974" y="415" width="370" height="195" rx="18" fill="#FFFFFF" stroke="#E07A5F" stroke-width="4"/>
+<text x="998" y="467" font-size="20" fill="#263238" font-weight="500">Tracks several operations and</text>
+<text x="998" y="496" font-size="20" fill="#263238" font-weight="500">consolidates updates</text>
+<text x="998" y="525" font-size="20" fill="#263238" font-weight="500">manually.</text>
+<rect x="1356" y="415" width="370" height="195" rx="18" fill="#FFFFFF" stroke="#E07A5F" stroke-width="4"/>
+<text x="1380" y="467" font-size="20" fill="#263238" font-weight="500">Escalates incidents, informs</text>
+<text x="1380" y="496" font-size="20" fill="#263238" font-weight="500">clients and compares final</text>
+<text x="1380" y="525" font-size="20" fill="#263238" font-weight="500">outcomes.</text>
+<rect x="30" y="620" width="160" height="195" rx="18" fill="#123C3A"/>
+<text x="110" text-anchor="middle" y="722" font-size="19" fill="#FFFFFF" font-weight="800">THINKING</text>
+<rect x="210" y="620" width="370" height="195" rx="18" fill="#FFFFFF" stroke="#E0A62F" stroke-width="4" stroke-dasharray="12 8"/>
+<text x="234" y="672" font-size="20" fill="#263238" font-weight="500">Are priorities and</text>
+<text x="234" y="701" font-size="20" fill="#263238" font-weight="500">dependencies correctly</text>
+<text x="234" y="730" font-size="20" fill="#263238" font-weight="500">aligned?</text>
+<rect x="592" y="620" width="370" height="195" rx="18" fill="#FFFFFF" stroke="#DCE8E7" stroke-width="4"/>
+<text x="616" y="672" font-size="20" fill="#263238" font-weight="500">Does everyone have the same</text>
+<text x="616" y="701" font-size="20" fill="#263238" font-weight="500">current information?</text>
+<rect x="974" y="620" width="370" height="195" rx="18" fill="#FFFFFF" stroke="#E07A5F" stroke-width="4"/>
+<text x="998" y="672" font-size="20" fill="#263238" font-weight="500">Which delay requires action</text>
+<text x="998" y="701" font-size="20" fill="#263238" font-weight="500">first?</text>
+<rect x="1356" y="620" width="370" height="195" rx="18" fill="#FFFFFF" stroke="#E07A5F" stroke-width="4"/>
+<text x="1380" y="672" font-size="20" fill="#263238" font-weight="500">Can I trace decisions and</text>
+<text x="1380" y="701" font-size="20" fill="#263238" font-weight="500">explain service performance?</text>
+<rect x="30" y="825" width="160" height="195" rx="18" fill="#123C3A"/>
+<text x="110" text-anchor="middle" y="927" font-size="19" fill="#FFFFFF" font-weight="800">FEELING</text>
+<rect x="210" y="825" width="370" height="195" rx="18" fill="#FFFFFF" stroke="#E0A62F" stroke-width="4" stroke-dasharray="12 8"/>
+<text x="234" y="877" font-size="20" fill="#263238" font-weight="500">Organized, but aware of</text>
+<text x="234" y="906" font-size="20" fill="#263238" font-weight="500">incomplete information.</text>
+<rect x="592" y="825" width="370" height="195" rx="18" fill="#FFFFFF" stroke="#DCE8E7" stroke-width="4"/>
+<text x="616" y="877" font-size="20" fill="#263238" font-weight="500">Busy and responsible for</text>
+<text x="616" y="906" font-size="20" fill="#263238" font-weight="500">synchronization.</text>
+<rect x="974" y="825" width="370" height="195" rx="18" fill="#FFFFFF" stroke="#E07A5F" stroke-width="4"/>
+<text x="998" y="877" font-size="20" fill="#263238" font-weight="500">Overloaded when multiple</text>
+<text x="998" y="906" font-size="20" fill="#263238" font-weight="500">routes change together.</text>
+<rect x="1356" y="825" width="370" height="195" rx="18" fill="#FFFFFF" stroke="#E07A5F" stroke-width="4"/>
+<text x="1380" y="877" font-size="20" fill="#263238" font-weight="500">Pressured during disruption;</text>
+<text x="1380" y="906" font-size="20" fill="#263238" font-weight="500">satisfied with clear</text>
+<text x="1380" y="935" font-size="20" fill="#263238" font-weight="500">evidence.</text>
+    <circle cx="62" cy="1047" r="8" fill="#E07A5F"/><text x="80" y="1054" font-size="18" fill="#526866">Negative area</text>
+    <rect x="260" y="1039" width="18" height="18" rx="3" fill="none" stroke="#E0A62F" stroke-width="3" stroke-dasharray="5 3"/><text x="290" y="1054" font-size="18" fill="#526866">Blank area to investigate</text>
+  </svg>
