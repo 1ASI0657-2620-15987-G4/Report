@@ -1,100 +1,130 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1080" viewBox="0 0 1800 1080"><rect width="1800" height="1080" fill="#F8FAFC"/>
-    <rect width="1800" height="154" fill="#172554"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1560" viewBox="0 0 2400 1560"><rect width="2400" height="1560" fill="#F8FAFC"/>
+    <rect width="2400" height="154" fill="#172554"/>
     <rect x="60" y="42" width="12" height="72" rx="6" fill="#F97316"/>
     <text x="96" y="62" font-size="18" fill="#93C5FD" font-weight="800">OUTCOME ALIGNMENT</text>
     <text x="96" y="106" font-size="36" fill="#FFFFFF" font-weight="800">Impact Map</text>
-    <text x="1740" text-anchor="end" y="92" font-size="20" fill="#BFDBFE" font-weight="600">TrackTruck · LogiGo</text>
-    <rect x="390" y="195" width="1020" height="150" rx="30" fill="#172554"/>
-    <text x="900" text-anchor="middle" y="244" font-size="17" fill="#93C5FD" font-weight="800">BUSINESS GOAL</text>
-    <text x="900" text-anchor="middle" y="292" font-size="31" fill="#FFFFFF" font-weight="800">Improve visibility, control and traceability</text>
-    <text x="900" text-anchor="middle" y="326" font-size="24" fill="#BFDBFE" font-weight="600">of freight transportation operations</text>
-    <path d="M900 345V390M900 390H385M900 390H1415" stroke="#F97316" stroke-width="5" fill="none"/>
+    <text x="2340" text-anchor="end" y="92" font-size="20" fill="#BFDBFE" font-weight="600">TrackTruck · LogiGo</text>
+    <text x="60" y="166" font-size="18" fill="#F97316" font-weight="800">SMART BUSINESS GOALS</text>
     <g>
-    <rect x="225" y="410" width="320" height="590" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
-    <rect x="225" y="410" width="320" height="84" rx="24" fill="#2563EB"/><rect x="225" y="470" width="320" height="24" fill="#2563EB"/>
-    <text x="249" y="462" font-size="24" fill="#FFFFFF" font-weight="800">Carlos Mendoza</text>
-    <text x="249" y="536" font-size="16" fill="#F97316" font-weight="800">IMPACTS</text>
-    <circle cx="253" cy="573" r="4" fill="#F97316"/>
-<text x="269" y="580" font-size="17" fill="#1E293B" font-weight="400">See vehicle location</text>
-<circle cx="253" cy="613" r="4" fill="#F97316"/>
-<text x="269" y="620" font-size="17" fill="#1E293B" font-weight="400">Detect incidents earlier</text>
-<circle cx="253" cy="653" r="4" fill="#F97316"/>
-<text x="269" y="660" font-size="17" fill="#1E293B" font-weight="400">Control trips and fleet</text>
-    <text x="249" y="770" font-size="16" fill="#2563EB" font-weight="800">DELIVERABLES</text>
-    <circle cx="253" cy="807" r="4" fill="#2563EB"/>
-<text x="269" y="814" font-size="17" fill="#1E293B" font-weight="400">Live map</text>
-<circle cx="253" cy="847" r="4" fill="#2563EB"/>
-<text x="269" y="854" font-size="17" fill="#1E293B" font-weight="400">Route progress</text>
-<circle cx="253" cy="887" r="4" fill="#2563EB"/>
-<text x="269" y="894" font-size="17" fill="#1E293B" font-weight="400">Incident workflow</text>
-<circle cx="253" cy="927" r="4" fill="#2563EB"/>
-<text x="269" y="934" font-size="17" fill="#1E293B" font-weight="400">Trip history</text>
+    <rect x="60" y="190" width="550" height="170" rx="24" fill="#172554"/>
+    <text x="88" y="230" font-size="17" fill="#93C5FD" font-weight="800">BG01 · VISIBILITY</text>
+    <text x="88" y="276" font-size="23" fill="#FFFFFF" font-weight="800">90% of active trips with current</text>
+<text x="88" y="306" font-size="23" fill="#FFFFFF" font-weight="800">location, status and progress</text>
+    <text x="88" y="335" font-size="16" fill="#BFDBFE" font-weight="600">Pilot target · 12 weeks</text>
   </g>
     <g>
-    <rect x="595" y="410" width="320" height="590" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
-    <rect x="595" y="410" width="320" height="84" rx="24" fill="#2563EB"/><rect x="595" y="470" width="320" height="24" fill="#2563EB"/>
-    <text x="619" y="462" font-size="24" fill="#FFFFFF" font-weight="800">Driver</text>
-    <text x="619" y="536" font-size="16" fill="#F97316" font-weight="800">IMPACTS</text>
-    <circle cx="623" cy="573" r="4" fill="#F97316"/>
-<text x="639" y="580" font-size="17" fill="#1E293B" font-weight="400">Report events clearly</text>
-<circle cx="623" cy="613" r="4" fill="#F97316"/>
-<text x="639" y="620" font-size="17" fill="#1E293B" font-weight="400">Reduce repeated calls</text>
-<circle cx="623" cy="653" r="4" fill="#F97316"/>
-<text x="639" y="660" font-size="17" fill="#1E293B" font-weight="400">Follow assigned trip</text>
-    <text x="619" y="770" font-size="16" fill="#2563EB" font-weight="800">DELIVERABLES</text>
-    <circle cx="623" cy="807" r="4" fill="#2563EB"/>
-<text x="639" y="814" font-size="17" fill="#1E293B" font-weight="400">Trip start/end</text>
-<circle cx="623" cy="847" r="4" fill="#2563EB"/>
-<text x="639" y="854" font-size="17" fill="#1E293B" font-weight="400">Incident report</text>
-<circle cx="623" cy="887" r="4" fill="#2563EB"/>
-<text x="639" y="894" font-size="17" fill="#1E293B" font-weight="400">Contact channel</text>
-<circle cx="623" cy="927" r="4" fill="#2563EB"/>
-<text x="639" y="934" font-size="17" fill="#1E293B" font-weight="400">Assignment view</text>
+    <rect x="625" y="190" width="550" height="170" rx="24" fill="#172554"/>
+    <text x="653" y="230" font-size="17" fill="#93C5FD" font-weight="800">BG02 · INCIDENT RESPONSE</text>
+    <text x="653" y="276" font-size="23" fill="#FFFFFF" font-weight="800">30% reduction in detection and</text>
+<text x="653" y="306" font-size="23" fill="#FFFFFF" font-weight="800">communication time</text>
+    <text x="653" y="335" font-size="16" fill="#BFDBFE" font-weight="600">Against each pilot baseline · 12 weeks</text>
   </g>
     <g>
-    <rect x="965" y="410" width="320" height="590" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
-    <rect x="965" y="410" width="320" height="84" rx="24" fill="#2563EB"/><rect x="965" y="470" width="320" height="24" fill="#2563EB"/>
-    <text x="989" y="462" font-size="24" fill="#FFFFFF" font-weight="800">Andrea Salazar</text>
-    <text x="989" y="536" font-size="16" fill="#F97316" font-weight="800">IMPACTS</text>
-    <circle cx="993" cy="573" r="4" fill="#F97316"/>
-<text x="1009" y="580" font-size="17" fill="#1E293B" font-weight="400">Supervise concurrent</text>
-<text x="1009" y="607" font-size="17" fill="#1E293B" font-weight="400">trips</text>
-<circle cx="993" cy="640" r="4" fill="#F97316"/>
-<text x="1009" y="647" font-size="17" fill="#1E293B" font-weight="400">Centralize operation data</text>
-<circle cx="993" cy="680" r="4" fill="#F97316"/>
-<text x="1009" y="687" font-size="17" fill="#1E293B" font-weight="400">Decide with current</text>
-<text x="1009" y="714" font-size="17" fill="#1E293B" font-weight="400">status</text>
-    <text x="989" y="770" font-size="16" fill="#2563EB" font-weight="800">DELIVERABLES</text>
-    <circle cx="993" cy="807" r="4" fill="#2563EB"/>
-<text x="1009" y="814" font-size="17" fill="#1E293B" font-weight="400">Operations dashboard</text>
-<circle cx="993" cy="847" r="4" fill="#2563EB"/>
-<text x="1009" y="854" font-size="17" fill="#1E293B" font-weight="400">Active-trip detail</text>
-<circle cx="993" cy="887" r="4" fill="#2563EB"/>
-<text x="1009" y="894" font-size="17" fill="#1E293B" font-weight="400">Alerts and status</text>
-<circle cx="993" cy="927" r="4" fill="#2563EB"/>
-<text x="1009" y="934" font-size="17" fill="#1E293B" font-weight="400">Performance history</text>
+    <rect x="1190" y="190" width="550" height="170" rx="24" fill="#172554"/>
+    <text x="1218" y="230" font-size="17" fill="#93C5FD" font-weight="800">BG03 · TRACEABILITY</text>
+    <text x="1218" y="276" font-size="23" fill="#FFFFFF" font-weight="800">95% of completed trips with a</text>
+<text x="1218" y="306" font-size="23" fill="#FFFFFF" font-weight="800">consultable operation history</text>
+    <text x="1218" y="335" font-size="16" fill="#BFDBFE" font-weight="600">Pilot target · 12 weeks</text>
   </g>
     <g>
-    <rect x="1335" y="410" width="320" height="590" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
-    <rect x="1335" y="410" width="320" height="84" rx="24" fill="#2563EB"/><rect x="1335" y="470" width="320" height="24" fill="#2563EB"/>
-    <text x="1359" y="462" font-size="24" fill="#FFFFFF" font-weight="800">LogiGo</text>
-    <text x="1359" y="536" font-size="16" fill="#F97316" font-weight="800">IMPACTS</text>
-    <circle cx="1363" cy="573" r="4" fill="#F97316"/>
-<text x="1379" y="580" font-size="17" fill="#1E293B" font-weight="400">Deliver reliable</text>
-<text x="1379" y="607" font-size="17" fill="#1E293B" font-weight="400">visibility</text>
-<circle cx="1363" cy="640" r="4" fill="#F97316"/>
-<text x="1379" y="647" font-size="17" fill="#1E293B" font-weight="400">Preserve product</text>
-<text x="1379" y="674" font-size="17" fill="#1E293B" font-weight="400">traceability</text>
-<circle cx="1363" cy="707" r="4" fill="#F97316"/>
-<text x="1379" y="714" font-size="17" fill="#1E293B" font-weight="400">Scale core operations</text>
-    <text x="1359" y="770" font-size="16" fill="#2563EB" font-weight="800">DELIVERABLES</text>
-    <circle cx="1363" cy="807" r="4" fill="#2563EB"/>
-<text x="1379" y="814" font-size="17" fill="#1E293B" font-weight="400">Company and access</text>
-<circle cx="1363" cy="847" r="4" fill="#2563EB"/>
-<text x="1379" y="854" font-size="17" fill="#1E293B" font-weight="400">Fleet management</text>
-<circle cx="1363" cy="887" r="4" fill="#2563EB"/>
-<text x="1379" y="894" font-size="17" fill="#1E293B" font-weight="400">Monitoring services</text>
-<circle cx="1363" cy="927" r="4" fill="#2563EB"/>
-<text x="1379" y="934" font-size="17" fill="#1E293B" font-weight="400">Audit-ready records</text>
+    <rect x="1755" y="190" width="550" height="170" rx="24" fill="#172554"/>
+    <text x="1783" y="230" font-size="17" fill="#93C5FD" font-weight="800">BG04 · OPERATIONAL CONTROL</text>
+    <text x="1783" y="276" font-size="23" fill="#FFFFFF" font-weight="800">80% of pilot users complete critical</text>
+<text x="1783" y="306" font-size="23" fill="#FFFFFF" font-weight="800">monitoring without scattered records</text>
+    <text x="1783" y="335" font-size="16" fill="#BFDBFE" font-weight="600">Pilot target · week 12</text>
   </g>
+    <path d="M1200 360V420M1200 420H420M1200 420H1980" stroke="#F97316" stroke-width="5" fill="none"/>
+    <g>
+    <rect x="60" y="455" width="720" height="1020" rx="28" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+    <rect x="60" y="455" width="720" height="105" rx="28" fill="#2563EB"/><rect x="60" y="530" width="720" height="30" fill="#2563EB"/>
+    <text x="90" y="505" font-size="28" fill="#FFFFFF" font-weight="800">Carlos Mendoza</text>
+    <text x="90" y="540" font-size="17" fill="#DBEAFE" font-weight="600">Fleet supervisor</text>
+    <text x="90" y="615" font-size="18" fill="#F97316" font-weight="800">IMPACTS</text>
+    <circle cx="94" cy="658" r="4" fill="#F97316"/>
+<text x="110" y="665" font-size="21" fill="#1E293B" font-weight="400">See vehicle location and progress</text>
+<circle cx="94" cy="698" r="4" fill="#F97316"/>
+<text x="110" y="705" font-size="21" fill="#1E293B" font-weight="400">Detect stops, delays and incidents</text>
+<text x="110" y="732" font-size="21" fill="#1E293B" font-weight="400">earlier</text>
+<circle cx="94" cy="765" r="4" fill="#F97316"/>
+<text x="110" y="772" font-size="21" fill="#1E293B" font-weight="400">Control assigned vehicles and</text>
+<text x="110" y="799" font-size="21" fill="#1E293B" font-weight="400">trips</text>
+<circle cx="94" cy="832" r="4" fill="#F97316"/>
+<text x="110" y="839" font-size="21" fill="#1E293B" font-weight="400">Review evidence after trip closure</text>
+    <text x="90" y="885" font-size="18" fill="#2563EB" font-weight="800">DELIVERABLES</text>
+    <circle cx="94" cy="928" r="4" fill="#2563EB"/>
+<text x="110" y="935" font-size="21" fill="#1E293B" font-weight="400">Live fleet map</text>
+<circle cx="94" cy="968" r="4" fill="#2563EB"/>
+<text x="110" y="975" font-size="21" fill="#1E293B" font-weight="400">Route progress and stop detail</text>
+<circle cx="94" cy="1008" r="4" fill="#2563EB"/>
+<text x="110" y="1015" font-size="21" fill="#1E293B" font-weight="400">Incident workflow and contact</text>
+<circle cx="94" cy="1048" r="4" fill="#2563EB"/>
+<text x="110" y="1055" font-size="21" fill="#1E293B" font-weight="400">Vehicle and trip history</text>
+    <rect x="88" y="1180" width="664" height="245" rx="22" fill="#DBEAFE"/>
+    <text x="116" y="1225" font-size="17" fill="#2563EB" font-weight="800">USER STORY</text>
+    <text x="116" y="1270" font-size="20" fill="#1E293B" font-weight="650">As a fleet supervisor, I want to see all company</text>
+<text x="116" y="1300" font-size="20" fill="#1E293B" font-weight="650">vehicles on a map so that I can understand their</text>
+<text x="116" y="1330" font-size="20" fill="#1E293B" font-weight="650">distribution and current status.</text>
+  </g>
+    <g>
+    <rect x="840" y="455" width="720" height="1020" rx="28" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+    <rect x="840" y="455" width="720" height="105" rx="28" fill="#2563EB"/><rect x="840" y="530" width="720" height="30" fill="#2563EB"/>
+    <text x="870" y="505" font-size="28" fill="#FFFFFF" font-weight="800">Driver</text>
+    <text x="870" y="540" font-size="17" fill="#DBEAFE" font-weight="600">Assigned trip operator</text>
+    <text x="870" y="615" font-size="18" fill="#F97316" font-weight="800">IMPACTS</text>
+    <circle cx="874" cy="658" r="4" fill="#F97316"/>
+<text x="890" y="665" font-size="21" fill="#1E293B" font-weight="400">Receive a clear trip assignment</text>
+<circle cx="874" cy="698" r="4" fill="#F97316"/>
+<text x="890" y="705" font-size="21" fill="#1E293B" font-weight="400">Report incidents with context</text>
+<circle cx="874" cy="738" r="4" fill="#F97316"/>
+<text x="890" y="745" font-size="21" fill="#1E293B" font-weight="400">Reduce repeated status calls</text>
+<circle cx="874" cy="778" r="4" fill="#F97316"/>
+<text x="890" y="785" font-size="21" fill="#1E293B" font-weight="400">Confirm trip start and completion</text>
+    <text x="870" y="885" font-size="18" fill="#2563EB" font-weight="800">DELIVERABLES</text>
+    <circle cx="874" cy="928" r="4" fill="#2563EB"/>
+<text x="890" y="935" font-size="21" fill="#1E293B" font-weight="400">Assignment view</text>
+<circle cx="874" cy="968" r="4" fill="#2563EB"/>
+<text x="890" y="975" font-size="21" fill="#1E293B" font-weight="400">Trip start and end controls</text>
+<circle cx="874" cy="1008" r="4" fill="#2563EB"/>
+<text x="890" y="1015" font-size="21" fill="#1E293B" font-weight="400">Incident reporting</text>
+<circle cx="874" cy="1048" r="4" fill="#2563EB"/>
+<text x="890" y="1055" font-size="21" fill="#1E293B" font-weight="400">Direct contact channel</text>
+    <rect x="868" y="1180" width="664" height="245" rx="22" fill="#DBEAFE"/>
+    <text x="896" y="1225" font-size="17" fill="#2563EB" font-weight="800">USER STORY</text>
+    <text x="896" y="1270" font-size="20" fill="#1E293B" font-weight="650">As a driver, I want to report an incident during</text>
+<text x="896" y="1300" font-size="20" fill="#1E293B" font-weight="650">the route so that the company knows what is</text>
+<text x="896" y="1330" font-size="20" fill="#1E293B" font-weight="650">affecting the trip.</text>
+  </g>
+    <g>
+    <rect x="1620" y="455" width="720" height="1020" rx="28" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+    <rect x="1620" y="455" width="720" height="105" rx="28" fill="#2563EB"/><rect x="1620" y="530" width="720" height="30" fill="#2563EB"/>
+    <text x="1650" y="505" font-size="28" fill="#FFFFFF" font-weight="800">Andrea Salazar</text>
+    <text x="1650" y="540" font-size="17" fill="#DBEAFE" font-weight="600">Logistics operations coordinator</text>
+    <text x="1650" y="615" font-size="18" fill="#F97316" font-weight="800">IMPACTS</text>
+    <circle cx="1654" cy="658" r="4" fill="#F97316"/>
+<text x="1670" y="665" font-size="21" fill="#1E293B" font-weight="400">Supervise concurrent operations</text>
+<circle cx="1654" cy="698" r="4" fill="#F97316"/>
+<text x="1670" y="705" font-size="21" fill="#1E293B" font-weight="400">Centralize current trip</text>
+<text x="1670" y="732" font-size="21" fill="#1E293B" font-weight="400">information</text>
+<circle cx="1654" cy="765" r="4" fill="#F97316"/>
+<text x="1670" y="772" font-size="21" fill="#1E293B" font-weight="400">Prioritize operations that require</text>
+<text x="1670" y="799" font-size="21" fill="#1E293B" font-weight="400">action</text>
+<circle cx="1654" cy="832" r="4" fill="#F97316"/>
+<text x="1670" y="839" font-size="21" fill="#1E293B" font-weight="400">Explain results with traceable</text>
+<text x="1670" y="866" font-size="21" fill="#1E293B" font-weight="400">evidence</text>
+    <text x="1650" y="885" font-size="18" fill="#2563EB" font-weight="800">DELIVERABLES</text>
+    <circle cx="1654" cy="928" r="4" fill="#2563EB"/>
+<text x="1670" y="935" font-size="21" fill="#1E293B" font-weight="400">Operations dashboard</text>
+<circle cx="1654" cy="968" r="4" fill="#2563EB"/>
+<text x="1670" y="975" font-size="21" fill="#1E293B" font-weight="400">Active-trip detail</text>
+<circle cx="1654" cy="1008" r="4" fill="#2563EB"/>
+<text x="1670" y="1015" font-size="21" fill="#1E293B" font-weight="400">Current incidents and statuses</text>
+<circle cx="1654" cy="1048" r="4" fill="#2563EB"/>
+<text x="1670" y="1055" font-size="21" fill="#1E293B" font-weight="400">Searchable operation history</text>
+    <rect x="1648" y="1180" width="664" height="245" rx="22" fill="#DBEAFE"/>
+    <text x="1676" y="1225" font-size="17" fill="#2563EB" font-weight="800">USER STORY</text>
+    <text x="1676" y="1270" font-size="20" fill="#1E293B" font-weight="650">As an operations manager, I want to see a</text>
+<text x="1676" y="1300" font-size="20" fill="#1E293B" font-weight="650">summary of operations so that I can quickly</text>
+<text x="1676" y="1330" font-size="20" fill="#1E293B" font-weight="650">understand the overall transportation status.</text>
+  </g>
+    <text x="60" y="1530" font-size="18" fill="#64748B" font-weight="600">Metrics are validation targets, not achieved results; baselines will be established with real pilot evidence.</text>
   </svg>

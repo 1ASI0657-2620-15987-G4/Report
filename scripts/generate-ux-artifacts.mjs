@@ -188,26 +188,41 @@ function toBeSvg(person) {
 }
 
 function impactMapSvg() {
-  const actor = (x, y, title, impacts, deliveries) => `<g>
-    <rect x="${x}" y="${y}" width="320" height="590" rx="24" fill="${brand.white}" stroke="${brand.line}" stroke-width="2"/>
-    <rect x="${x}" y="${y}" width="320" height="84" rx="24" fill="${brand.blue}"/><rect x="${x}" y="${y + 60}" width="320" height="24" fill="${brand.blue}"/>
-    ${textBlock(x + 24, y + 52, [title], { size: 24, color: brand.white, weight: 800 })}
-    ${textBlock(x + 24, y + 126, ["IMPACTS"], { size: 16, color: brand.orange, weight: 800 })}
-    ${brandBulletBlock(x + 28, y + 170, impacts, 25, 17, brand.orange)}
-    ${textBlock(x + 24, y + 360, ["DELIVERABLES"], { size: 16, color: brand.blue, weight: 800 })}
-    ${brandBulletBlock(x + 28, y + 404, deliveries, 25, 17, brand.blue)}
+  const goal = (x, id, metric, period) => `<g>
+    <rect x="${x}" y="190" width="550" height="170" rx="24" fill="${brand.navy}"/>
+    ${textBlock(x + 28, 230, [id], { size: 17, color: "#93C5FD", weight: 800 })}
+    ${textBlock(x + 28, 276, wrap(metric, 38), { size: 23, color: brand.white, weight: 800, gap: 30 })}
+    ${textBlock(x + 28, 335, [period], { size: 16, color: "#BFDBFE", weight: 600 })}
   </g>`;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1080" viewBox="0 0 1800 1080"><rect width="1800" height="1080" fill="${brand.paper}"/>
-    ${artifactHeader("Outcome alignment", "Impact Map", "TrackTruck · LogiGo")}
-    <rect x="390" y="195" width="1020" height="150" rx="30" fill="${brand.navy}"/>
-    ${textBlock(900, 244, ["BUSINESS GOAL"], { size: 17, color: "#93C5FD", weight: 800 }).replace('x="900"', 'x="900" text-anchor="middle"')}
-    ${textBlock(900, 292, ["Improve visibility, control and traceability"], { size: 31, color: brand.white, weight: 800 }).replace('x="900"', 'x="900" text-anchor="middle"')}
-    ${textBlock(900, 326, ["of freight transportation operations"], { size: 24, color: "#BFDBFE", weight: 600 }).replace('x="900"', 'x="900" text-anchor="middle"')}
-    <path d="M900 345V390M900 390H385M900 390H1415" stroke="${brand.orange}" stroke-width="5" fill="none"/>
-    ${actor(225, 410, "Carlos Mendoza", ["See vehicle location", "Detect incidents earlier", "Control trips and fleet"], ["Live map", "Route progress", "Incident workflow", "Trip history"])}
-    ${actor(595, 410, "Driver", ["Report events clearly", "Reduce repeated calls", "Follow assigned trip"], ["Trip start/end", "Incident report", "Contact channel", "Assignment view"])}
-    ${actor(965, 410, "Andrea Salazar", ["Supervise concurrent trips", "Centralize operation data", "Decide with current status"], ["Operations dashboard", "Active-trip detail", "Alerts and status", "Performance history"])}
-    ${actor(1335, 410, "LogiGo", ["Deliver reliable visibility", "Preserve product traceability", "Scale core operations"], ["Company and access", "Fleet management", "Monitoring services", "Audit-ready records"])}
+  const actor = (x, title, role, impacts, deliveries, story) => `<g>
+    <rect x="${x}" y="455" width="720" height="1020" rx="28" fill="${brand.white}" stroke="${brand.line}" stroke-width="3"/>
+    <rect x="${x}" y="455" width="720" height="105" rx="28" fill="${brand.blue}"/><rect x="${x}" y="530" width="720" height="30" fill="${brand.blue}"/>
+    ${textBlock(x + 30, 505, [title], { size: 28, color: brand.white, weight: 800 })}
+    ${textBlock(x + 30, 540, [role], { size: 17, color: "#DBEAFE", weight: 600 })}
+    ${textBlock(x + 30, 615, ["IMPACTS"], { size: 18, color: brand.orange, weight: 800 })}
+    ${brandBulletBlock(x + 34, 665, impacts, 34, 21, brand.orange)}
+    ${textBlock(x + 30, 885, ["DELIVERABLES"], { size: 18, color: brand.blue, weight: 800 })}
+    ${brandBulletBlock(x + 34, 935, deliveries, 34, 21, brand.blue)}
+    <rect x="${x + 28}" y="1180" width="664" height="245" rx="22" fill="${brand.sky}"/>
+    ${textBlock(x + 56, 1225, ["USER STORY"], { size: 17, color: brand.blue, weight: 800 })}
+    ${textBlock(x + 56, 1270, wrap(story, 48), { size: 20, color: brand.ink, weight: 650, gap: 30 })}
+  </g>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1560" viewBox="0 0 2400 1560"><rect width="2400" height="1560" fill="${brand.paper}"/>
+    <rect width="2400" height="154" fill="${brand.navy}"/>
+    <rect x="60" y="42" width="12" height="72" rx="6" fill="${brand.orange}"/>
+    ${textBlock(96, 62, ["OUTCOME ALIGNMENT"], { size: 18, color: "#93C5FD", weight: 800 })}
+    ${textBlock(96, 106, ["Impact Map"], { size: 36, color: brand.white, weight: 800 })}
+    ${textBlock(2340, 92, ["TrackTruck · LogiGo"], { size: 20, color: "#BFDBFE", weight: 600 }).replace('x="2340"', 'x="2340" text-anchor="end"')}
+    ${textBlock(60, 166, ["SMART BUSINESS GOALS"], { size: 18, color: brand.orange, weight: 800 })}
+    ${goal(60, "BG01 · VISIBILITY", "90% of active trips with current location, status and progress", "Pilot target · 12 weeks")}
+    ${goal(625, "BG02 · INCIDENT RESPONSE", "30% reduction in detection and communication time", "Against each pilot baseline · 12 weeks")}
+    ${goal(1190, "BG03 · TRACEABILITY", "95% of completed trips with a consultable operation history", "Pilot target · 12 weeks")}
+    ${goal(1755, "BG04 · OPERATIONAL CONTROL", "80% of pilot users complete critical monitoring without scattered records", "Pilot target · week 12")}
+    <path d="M1200 360V420M1200 420H420M1200 420H1980" stroke="${brand.orange}" stroke-width="5" fill="none"/>
+    ${actor(60, "Carlos Mendoza", "Fleet supervisor", ["See vehicle location and progress", "Detect stops, delays and incidents earlier", "Control assigned vehicles and trips", "Review evidence after trip closure"], ["Live fleet map", "Route progress and stop detail", "Incident workflow and contact", "Vehicle and trip history"], "As a fleet supervisor, I want to see all company vehicles on a map so that I can understand their distribution and current status.")}
+    ${actor(840, "Driver", "Assigned trip operator", ["Receive a clear trip assignment", "Report incidents with context", "Reduce repeated status calls", "Confirm trip start and completion"], ["Assignment view", "Trip start and end controls", "Incident reporting", "Direct contact channel"], "As a driver, I want to report an incident during the route so that the company knows what is affecting the trip.")}
+    ${actor(1620, "Andrea Salazar", "Logistics operations coordinator", ["Supervise concurrent operations", "Centralize current trip information", "Prioritize operations that require action", "Explain results with traceable evidence"], ["Operations dashboard", "Active-trip detail", "Current incidents and statuses", "Searchable operation history"], "As an operations manager, I want to see a summary of operations so that I can quickly understand the overall transportation status.")}
+    ${textBlock(60, 1530, ["Metrics are validation targets, not achieved results; baselines will be established with real pilot evidence."], { size: 18, color: brand.muted, weight: 600 })}
   </svg>`;
 }
 

@@ -318,6 +318,8 @@ TrackTruck busca atender estas necesidades mediante una plataforma que centralic
 | Necesidad principal | Supervisar y controlar las operaciones de transporte en tiempo real |
 | Funcionalidades de mayor valor | Geolocalización, seguimiento de rutas, comunicación, incidencias e historial de operaciones |
 
+**Sustento estadístico del segmento.** El Anuario Estadístico 2023 del Ministerio de Transportes y Comunicaciones registró **346 876 vehículos habilitados** para el transporte terrestre de carga al cierre de 2023. Además, el MTC mantiene un conjunto de datos abiertos de transporte terrestre de carga nacional con registros de vehículos y empresas para el periodo **2022-2025**, y una serie oficial del parque vehicular autorizado por clase de vehículo y departamento para **2016-2025**. Estas fuentes delimitan un mercado B2B real, distribuido a nivel nacional y con una escala que justifica herramientas especializadas de monitoreo, control y trazabilidad.
+
 ### Segmento 2: Operadores y empresas de logística
 
 Este segmento comprende operadores y empresas de logística que coordinan operaciones relacionadas con el traslado de mercancías y requieren mantener visibilidad sobre el desarrollo del transporte. Debido a que pueden gestionar múltiples rutas, vehículos y operaciones simultáneamente, necesitan acceder de manera rápida a información actualizada que facilite el seguimiento y la toma de decisiones.
@@ -336,6 +338,10 @@ Para este segmento, TrackTruck permite centralizar la información de los recorr
 | Necesidad principal | Obtener visibilidad y trazabilidad sobre el transporte de mercancías |
 | Funcionalidades de mayor valor | Monitoreo en tiempo real, seguimiento de recorridos, comunicación, historial e incidencias |
 
+**Sustento estadístico del segmento.** La misma infraestructura estadística del MTC evidencia un volumen amplio y geográficamente distribuido de operaciones de carga que debe ser coordinado por responsables logísticos. Como indicador de la composición operativa, un estudio conjunto del MTC y el MTPE reportó que, con base en la estructura vehicular de 2022, los **camiones representaban 55,1 %**, los **remolques y semirremolques 22,46 %** y los **tractocamiones 15,87 %** del parque analizado. Esta diversidad de unidades refuerza la necesidad de centralizar rutas, vehículos, conductores, incidencias y estados operativos.
+
+**Criterio de segmentación.** Ambos segmentos se diferencian por su responsabilidad principal: el primero administra directamente flota y conductores; el segundo coordina simultáneamente viajes y servicios logísticos. Los datos oficiales sustentan el tamaño y la heterogeneidad del contexto, mientras que las seis entrevistas planificadas permitirán validar los comportamientos, necesidades y criterios de adopción sin atribuir porcentajes no observados.
+
 
 <div style="page-break-after: always;"></div>
 
@@ -346,7 +352,7 @@ Para este segmento, TrackTruck permite centralizar la información de los recorr
 
 Para comprender el entorno competitivo de **TrackTruck**, se analizaron soluciones relacionadas con el monitoreo de vehículos, gestión de flotas y seguimiento de operaciones de transporte. Este análisis permite identificar las principales funcionalidades ofrecidas actualmente en el mercado, así como sus fortalezas y diferencias frente a nuestra propuesta.
 
-Para el análisis competitivo se han considerado competidores directos e indirectos que ofrecen funcionalidades relacionadas con geolocalización, seguimiento de rutas, gestión de conductores y supervisión de operaciones de transporte.
+Para el análisis competitivo se han considerado **tres competidores directos** —FourKites, Fleet Complete y Samsara— y un competidor indirecto —Tookan—, todos relacionados con geolocalización, seguimiento de rutas, gestión de conductores o supervisión de operaciones de transporte.
 
 ### FourKites
 
@@ -372,6 +378,26 @@ Tookan es una plataforma orientada principalmente a la gestión de entregas y op
 
 Se considera un competidor indirecto debido a que comparte funcionalidades relacionadas con el seguimiento y gestión de vehículos y conductores, aunque su enfoque está más orientado a la administración de entregas y servicios de última milla. En contraste, TrackTruck se enfoca en la supervisión y trazabilidad de operaciones de transporte de carga, incluyendo vehículos, conductores, rutas, recorridos e incidencias.
 
+### Samsara
+
+**Tipo de competidor: Directo**
+
+Samsara ofrece una plataforma conectada para operaciones físicas que integra localización GPS en tiempo real, telemática, seguridad del conductor, mantenimiento y análisis de flotas. Compite directamente con TrackTruck porque cubre el seguimiento de vehículos, la visibilidad operacional y la gestión de conductores desde una solución centralizada.
+
+| Dimensión | Análisis de Samsara |
+|---|---|
+| Overview | Plataforma internacional de operaciones conectadas y gestión integral de flotas. |
+| Ventaja competitiva | Amplitud de telemática, seguridad, mantenimiento e integraciones dentro de un ecosistema consolidado. |
+| Mercado objetivo | Organizaciones con operaciones físicas y flotas que requieren control, seguridad y eficiencia operacional. |
+| Productos y servicios | GPS en tiempo real, telemática, seguridad del conductor, mantenimiento, alertas y análisis. |
+| Precio y distribución | Cotización empresarial según alcance; acceso web y móvil. |
+| Fortalezas | Plataforma madura, cobertura funcional amplia y capacidades analíticas. |
+| Debilidades | Su amplitud puede elevar la complejidad de adopción para equipos que requieren un flujo focalizado. |
+| Oportunidades | Mayor digitalización de flotas y demanda por datos operacionales integrados. |
+| Amenazas | Competencia global, regulación de datos y alternativas especializadas de menor alcance. |
+
+Frente a esta plataforma internacional, TrackTruck propone una experiencia enfocada en empresas peruanas de transporte de carga y operadores logísticos, con recorridos, paradas, incidencias, comunicación e historial reunidos alrededor del viaje. Esta especialización permite priorizar una adopción más simple y un modelo funcional alineado con el contexto local.
+
 <div style="page-break-after: always;"></div>
 
 
@@ -388,7 +414,7 @@ Se considera un competidor indirecto debido a que comparte funcionalidades relac
 | Estrategias de marketing | Marketing digital B2B, contacto directo con empresas de transporte y logística, presencia en redes profesionales y alianzas estratégicas con organizaciones relacionadas con el sector. | Posicionamiento empresarial basado en visibilidad de la cadena de suministro, integración tecnológica y optimización de operaciones logísticas. | Posicionamiento basado en eficiencia operativa, seguridad, telemática y optimización de la gestión de flotas. | Posicionamiento basado en facilidad de uso, automatización de operaciones, optimización de entregas y flexibilidad para diferentes tipos de empresas. |
 | **Perfil de Producto** | | | | |
 | Productos & Servicios | Geolocalización y monitoreo de vehículos en tiempo real, visualización de rutas y recorridos, identificación de paradas, descansos, retrasos e incidencias, comunicación mediante llamadas y registro histórico de conductores, vehículos, rutas y operaciones. | Seguimiento de transporte en tiempo real, visibilidad de envíos, gestión de excepciones, alertas y herramientas de análisis para operaciones logísticas. | Seguimiento GPS de vehículos, gestión de flotas, monitoreo de conductores, telemática, mantenimiento y herramientas de análisis operativo. | Planificación y optimización de rutas, asignación de tareas, gestión de conductores, seguimiento de entregas en tiempo real y reportes de desempeño. |
-| Precios & Costos | Modelo de suscripción empresarial. Precios por definir según el alcance y las funcionalidades ofrecidas. | Precios personalizados de acuerdo con las necesidades y características de la operación empresarial. | Precios variables según la solución, cantidad de vehículos y servicios contratados. | Planes de suscripción según las funcionalidades y necesidades de las operaciones gestionadas. |
+| Precios & Costos | Suscripción B2B cotizada según el tamaño de la flota, los módulos habilitados y el nivel de soporte. | Precios personalizados de acuerdo con las necesidades y características de la operación empresarial. | Precios variables según la solución, cantidad de vehículos y servicios contratados. | Planes de suscripción según las funcionalidades y necesidades de las operaciones gestionadas. |
 | Canales de distribución | Plataforma web responsive y acceso desde dispositivos móviles. | Web y móvil. | Web y móvil. | Web y móvil. |
 | **Análisis SWOT** | | | | |
 | Fortalezas | Plataforma enfocada en transporte de carga; centralización del monitoreo, comunicación e historial de operaciones; seguimiento de recorridos e incidencias; interfaz orientada a facilitar la supervisión de vehículos y conductores. | Plataforma consolidada con amplia capacidad de seguimiento y visibilidad de operaciones logísticas y de transporte. | Amplia variedad de herramientas para la gestión de flotas, vehículos y conductores, además de capacidades de telemática y análisis. | Facilidad de uso, flexibilidad para diferentes operaciones y herramientas especializadas en planificación, asignación y seguimiento de entregas. |
@@ -424,7 +450,7 @@ La plataforma evolucionará considerando las necesidades identificadas en empres
 Se recopilarán y analizarán comentarios de empresas, gestores de flota y operadores logísticos para identificar problemas de uso, nuevas necesidades y oportunidades de mejora. Esta información permitirá priorizar las funcionalidades que generen mayor valor para los usuarios de TrackTruck.
 
 **Monitoreo de la competencia:**  
-Se realizará un seguimiento periódico de plataformas como FourKites, Fleet Complete y Tookan para identificar nuevas funcionalidades, cambios en sus propuestas de valor y tendencias relacionadas con el monitoreo y la gestión del transporte.
+Se realizará un seguimiento periódico de plataformas como FourKites, Fleet Complete, Samsara y Tookan para identificar nuevas funcionalidades, cambios en sus propuestas de valor y tendencias relacionadas con el monitoreo y la gestión del transporte.
 
 **Marketing digital B2B:**  
 Se desarrollarán acciones de marketing digital dirigidas específicamente a empresas de transporte de carga y operadores logísticos, utilizando contenido relacionado con trazabilidad, monitoreo en tiempo real, gestión de flotas y control de operaciones para dar a conocer la propuesta de valor de TrackTruck.
@@ -683,6 +709,8 @@ El análisis final se realizará por segmento y distinguirá:
 
 Las siguientes fichas de **User Persona** representan arquetipos de investigación construidos a partir de la definición actual de los segmentos objetivo, la problemática y las hipótesis de Lean UX de TrackTruck. Se mantienen como artefactos versionados y deberán validarse o ajustarse con los hallazgos de las entrevistas reales.
 
+**UXPressia:** [Carlos Mendoza — Fleet Supervisor](https://uxpressia.com/w/30MMO/p/cmNSr?tagId=noTag) · [Andrea Salazar — User Persona & Empathy Map](https://uxpressia.com/w/30MMO/p/aUtQT?tagId=noTag)
+
 Para el primer segmento, correspondiente a **empresas de transporte de carga**, se identificó un perfil relacionado con la gestión y supervisión de flotas, cuyo principal objetivo es mantener control sobre los vehículos, conductores y recorridos. Este usuario necesita conocer la ubicación de sus unidades, detectar retrasos o incidencias y mantener comunicación con los conductores para responder oportunamente ante situaciones que puedan afectar el transporte.
 
 Para el segundo segmento, correspondiente a **operadores y empresas de logística**, se identificó un perfil orientado a la coordinación y seguimiento de múltiples operaciones de transporte. Este usuario valora especialmente el acceso rápido a información actualizada, la trazabilidad de los recorridos y la posibilidad de centralizar información sobre vehículos, conductores, rutas e incidencias para facilitar la supervisión y toma de decisiones.
@@ -742,6 +770,8 @@ La principal coincidencia entre ambos perfiles se encuentra en la necesidad de c
 En esta sección se presentan los **Empathy Maps** elaborados en **Miro** para cada uno de los User Personas identificados en los segmentos objetivo de TrackTruck. Estos mapas permiten organizar las necesidades, comportamientos, pensamientos, preocupaciones y expectativas que deben contrastarse con los usuarios dentro de su contexto de trabajo.
 
 **Miro board:** [Open the TrackTruck Empathy Mapping board](https://miro.com/app/board/uXjVHoFb36Q=/)
+
+**UXPressia:** [Carlos Mendoza — Empathy Map](https://uxpressia.com/w/30MMO/p/zbxzE?tagId=noTag) · [Andrea Salazar — User Persona & Empathy Map](https://uxpressia.com/w/30MMO/p/aUtQT?tagId=noTag)
 
 Para su elaboración se colocó a cada User Persona como elemento central y se organizaron los principales hallazgos considerando qué necesita hacer el usuario, qué dice, qué ve, qué hace, qué escucha y qué piensa o siente. También se identificaron sus **Pains** y **Gains**.
 
@@ -812,6 +842,8 @@ La especificación de requisitos comprende el **To-Be Scenario Mapping**, las **
 ## 3.1. To-Be Scenario Mapping
 
 En esta sección se presentan los **To-Be Scenario Mapping** de los User Personas de TrackTruck como artefactos visuales versionados junto con el reporte. A diferencia del As-Is Scenario Mapping, que representa la forma en que los usuarios realizan actualmente sus actividades, el escenario To-Be permite representar cómo podría mejorar su experiencia mediante el uso de TrackTruck.
+
+**Miro board:** [Open the TrackTruck As-Is and To-Be Scenario Mapping board](https://miro.com/app/board/uXjVHoEqlmc=/)
 
 Para su elaboración, el equipo tomó como punto de partida los problemas y oportunidades identificados en los **As-Is Scenario Mapping**. Posteriormente, se realizó una lluvia de ideas individual sobre posibles mejoras en la experiencia de cada usuario. Las propuestas fueron revisadas y agrupadas por el equipo para establecer las fases principales del nuevo escenario.
 
@@ -989,15 +1021,22 @@ Las siguientes preocupaciones arquitectónicas representan aspectos con un impac
 
 El **Impact Map** de TrackTruck relaciona el objetivo de negocio del producto con los actores involucrados, los impactos esperados y las funcionalidades necesarias para alcanzarlos. El artefacto se mantiene en formato SVG editable y PNG para su visualización dentro del reporte.
 
+**UXPressia:** [Open the LogiGo | TrackTruck Impact Map — AV1](https://uxpressia.com/w/30MMO/i/sNf60?tagId=noTag)
+
 ![Impact Map - TrackTruck](assets/images/chapter3/impact-map.png)
 
 <div style="page-break-after: always;"></div>
 
 
 
-## Business Goal
+## Business Goals
 
-Mejorar la visibilidad, el control y la trazabilidad de las operaciones de transporte de carga.
+- **BG01 — Visibilidad operacional:** lograr que, durante el piloto de 12 semanas, al menos el **90 % de los viajes activos** pueda consultarse con ubicación, estado y progreso vigentes desde TrackTruck.
+- **BG02 — Respuesta ante incidencias:** reducir en **30 % el tiempo medio de detección y comunicación** de incidencias durante las primeras 12 semanas de uso, comparado con la línea base levantada con cada empresa piloto.
+- **BG03 — Trazabilidad:** conseguir que el **95 % de los viajes finalizados** conserve un historial consultable de ruta, vehículo, conductor, paradas e incidencias al cierre del piloto.
+- **BG04 — Control operativo:** alcanzar que al menos el **80 % de los supervisores y coordinadores piloto** complete las tareas críticas de monitoreo sin recurrir a registros dispersos al finalizar la semana 12.
+
+Estas metas son hipótesis SMART de producto: tienen métrica, periodo y criterio de éxito, pero sus líneas base y resultados deberán completarse con mediciones reales; no se presentan como resultados alcanzados.
 
 ## Personas
 
@@ -1033,16 +1072,16 @@ Mejorar la visibilidad, el control y la trazabilidad de las operaciones de trans
 
 ## User Stories
 
-Algunas User Stories relacionadas con el Impact Map son:
+Las siguientes User Stories conectan los deliverables del Impact Map con resultados observables:
 
-- **US14:** Visualizar ubicación del vehículo.
-- **US15:** Visualizar recorrido del viaje.
-- **US17:** Identificar retrasos en el viaje.
-- **US18:** Registrar incidencia.
-- **US20:** Contactar al conductor.
-- **US21:** Consultar historial de viajes.
-- **US30:** Visualizar vehículos en mapa.
-- **US43:** Visualizar resumen de operaciones.
+- **US14:** Como responsable de operaciones, deseo visualizar la ubicación actual de un vehículo para supervisar su desplazamiento durante el viaje.
+- **US15:** Como responsable de operaciones, deseo visualizar el recorrido realizado por un vehículo para verificar el cumplimiento de la ruta planificada.
+- **US17:** Como responsable de operaciones, deseo identificar retrasos durante un viaje para tomar decisiones oportunamente.
+- **US18:** Como conductor, deseo registrar una incidencia durante el recorrido para informar a la empresa sobre una situación que afecta el viaje.
+- **US20:** Como responsable de operaciones, deseo iniciar una llamada con el conductor asignado para comunicarme rápidamente cuando necesite información sobre el viaje.
+- **US21:** Como responsable de operaciones, deseo consultar los viajes realizados anteriormente para revisar las operaciones de transporte de la empresa.
+- **US30:** Como supervisor de flota, deseo visualizar en un mapa todos los vehículos de la empresa para conocer su distribución y estado general.
+- **US43:** Como responsable de operaciones, deseo visualizar un resumen de las operaciones para conocer rápidamente el estado general de los transportes gestionados.
 
 <div style="page-break-after: always;"></div>
 
@@ -1053,6 +1092,8 @@ Algunas User Stories relacionadas con el Impact Map son:
 ## 3.4. Product Backlog
 
 El Product Backlog de **TrackTruck** reúne y prioriza las User Stories identificadas para el desarrollo del producto. El orden se establece principalmente según el valor que cada historia aporta a las empresas de transporte de carga y operadores logísticos, priorizando las funcionalidades relacionadas con el monitoreo, seguimiento de viajes, gestión de incidencias y trazabilidad de las operaciones.
+
+**Trello board:** [Open the LogiGo | TrackTruck | Product Backlog — AV1 board](https://trello.com/b/FjthiN3e/logigo-tracktruck-product-backlog-av1)
 
 La estimación se realiza mediante **Story Points**, utilizando los valores 1, 2, 3, 5 y 8 según la complejidad relativa de cada historia.
 
@@ -1149,6 +1190,18 @@ Git. (s. f.). *Git documentation*. https://git-scm.com/doc
 
 Miro. (s. f.). *Miro visual workspace*. https://miro.com/
 
+Ministerio de Transportes y Comunicaciones. (2026). *Anuario Estadístico 2025*. https://www.gob.pe/institucion/mtc/informes-publicaciones/8195835-anuario-estadistico-2025
+
+Ministerio de Transportes y Comunicaciones. (2024). *Anuario Estadístico 2023*. https://cdn.www.gob.pe/uploads/document/file/6778343/5871728-anuario-estadistico-2023.pdf
+
+Ministerio de Transportes y Comunicaciones. (2026). *Estadística: Servicios de Transporte Terrestre por Carretera - Parque Automotor*. https://www.gob.pe/institucion/mtc/informes-publicaciones/344892-estadistica-servicios-de-transporte-terrestre-por-carretera-parque-automotor
+
+Ministerio de Transportes y Comunicaciones. (2025). *Transporte Terrestre de Carga Nacional 2022-2025*. https://www.datosabiertos.gob.pe/dataset/transporte-terrestre-de-carga-nacional-2022-2025-ministerio-de-transportes-y-comunicaciones-
+
+Ministerio de Transportes y Comunicaciones. (2026). *MTC y MTPE elaboran estudio para fortalecer capacitación y certificación para conductores de carga*. https://www.gob.pe/institucion/mtc/noticias/1357008-mtc-y-mtpe-elaboran-estudio-para-fortalecer-capacitacion-y-certificacion-para-conductores-de-carga
+
+Samsara. (s. f.). *Samsara for fleets*. https://www.samsara.com/pdf/docs/samsara-for-fleets-presentation.pdf
+
 Microsoft. (s. f.). *.NET documentation*. https://learn.microsoft.com/dotnet/
 
 Microsoft. (s. f.). *C# documentation*. https://learn.microsoft.com/dotnet/csharp/
@@ -1169,11 +1222,12 @@ TypeScript. (s. f.). *TypeScript documentation*. https://www.typescriptlang.org/
 
 | Actividad | Herramienta |
 |---|---|
-| User Personas | SVG versionado en GitHub |
-| Empathy Maps | Miro |
-| Impact Map | SVG versionado en GitHub |
+| User Personas | UXPressia y SVG versionado en GitHub |
+| Empathy Maps | UXPressia y Miro |
+| Impact Map | UXPressia y SVG versionado en GitHub |
 | As-Is Scenario Mapping | Miro |
-| To-Be Scenario Mapping | SVG versionado en GitHub |
+| To-Be Scenario Mapping | Miro y SVG versionado en GitHub |
+| Product Backlog | Trello público y tabla versionada en GitHub |
 | Control y gestión del proyecto | GitHub |
 | Control de versiones | GitHub / Git |
 | Flujo de trabajo de Git | GitFlow Workflow |
@@ -1189,8 +1243,12 @@ TypeScript. (s. f.). *TypeScript documentation*. https://www.typescriptlang.org/
 | Web Services repository | [Open repository](https://github.com/1ASI0657-2620-15987-G4/tracktruck-platform) |
 | Frontend Web Application repository | [Open repository](https://github.com/1ASI0657-2620-15987-G4/tracktruck-webapp) |
 | Product Backlog visual | [Ver artefacto](assets/images/chapter3/product-backlog.svg) |
+| Product Backlog - Trello | [Ver tablero público](https://trello.com/b/FjthiN3e/logigo-tracktruck-product-backlog-av1) |
 | User Personas | [Carlos Mendoza](assets/images/chapter2/user-persona1.svg) · [Andrea Salazar](assets/images/chapter2/user-persona2.svg) |
+| User Personas - UXPressia | [Carlos Mendoza](https://uxpressia.com/w/30MMO/p/cmNSr?tagId=noTag) · [Andrea Salazar](https://uxpressia.com/w/30MMO/p/aUtQT?tagId=noTag) |
 | Empathy Maps - Miro | [Ver tablero](https://miro.com/app/board/uXjVHoFb36Q=/) |
-| Impact Map | [Ver artefacto](assets/images/chapter3/impact-map.svg) |
-| As-Is Scenario Maps - Miro | [Ver tablero](https://miro.com/app/board/uXjVHoEqlmc=/) |
+| Empathy Maps - UXPressia | [Carlos Mendoza](https://uxpressia.com/w/30MMO/p/zbxzE?tagId=noTag) · [Andrea Salazar](https://uxpressia.com/w/30MMO/p/aUtQT?tagId=noTag) |
+| Impact Map - UXPressia | [Ver mapa](https://uxpressia.com/w/30MMO/i/sNf60?tagId=noTag) |
+| Impact Map versionado | [Ver artefacto](assets/images/chapter3/impact-map.svg) |
+| As-Is and To-Be Scenario Maps - Miro | [Ver tablero](https://miro.com/app/board/uXjVHoEqlmc=/) |
 | To-Be Scenario Maps | [Carlos Mendoza](assets/images/chapter3/to-be-scenario-map1.svg) · [Andrea Salazar](assets/images/chapter3/to-be-scenario-map2.svg) |
