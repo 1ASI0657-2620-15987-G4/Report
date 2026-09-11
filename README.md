@@ -43,8 +43,8 @@
     <td>Fernandez Garfias, Alexander Piero</td>
   </tr>
   <tr>
-    <td>UXXXXXXXXXX</td>
-    <td>Miembro 4</td>
+    <td>U202213553</td>
+    <td>De Las Casas Latour, Sebastián</td>
   </tr>
   <tr>
     <td>UXXXXXXXXXX</td>
@@ -757,9 +757,9 @@ La principal coincidencia entre ambos perfiles se encuentra en la necesidad de c
 
 ### 2.3.3. Empathy Mapping
 
-En esta sección se presentan los **Empathy Maps** elaborados en **UXPressia** para cada uno de los User Personas identificados en los segmentos objetivo de TrackTruck. Estos mapas permiten comprender con mayor profundidad las necesidades, comportamientos, pensamientos, preocupaciones y expectativas de los usuarios dentro de su contexto de trabajo.
+En esta sección se presentan los **Empathy Maps** elaborados en **Miro** para cada uno de los User Personas identificados en los segmentos objetivo de TrackTruck. Estos mapas permiten organizar las necesidades, comportamientos, pensamientos, preocupaciones y expectativas que deben contrastarse con los usuarios dentro de su contexto de trabajo.
 
-Para su elaboración, se colocó a cada User Persona como elemento central y se analizaron las observaciones obtenidas durante las entrevistas. A partir de ello, se organizaron los principales hallazgos considerando qué necesita hacer el usuario, qué dice, qué ve, qué hace, qué escucha y qué piensa o siente. Finalmente, se identificaron sus principales **Pains** y **Gains**, los cuales permiten reconocer los problemas que enfrenta actualmente y los resultados que espera obtener.
+Para su elaboración se colocó a cada User Persona como elemento central y se organizaron los principales hallazgos considerando qué necesita hacer el usuario, qué dice, qué ve, qué hace, qué escucha y qué piensa o siente. También se identificaron sus **Pains** y **Gains**.
 
 #### 1. Empathy Map del primer segmento: Empresas de transporte de carga
 
@@ -767,7 +767,7 @@ El primer Empathy Map corresponde a **Carlos Mendoza**, supervisor de flota y re
 
 Entre sus principales preocupaciones se encuentran la dificultad para conocer inmediatamente lo que ocurre durante un recorrido, la necesidad de comunicarse constantemente con los conductores y la falta de información centralizada sobre viajes anteriores. Como principales resultados esperados, busca disponer de mayor visibilidad sobre su flota, responder rápidamente ante problemas y mantener un mejor registro de las operaciones realizadas.
 
-![Empathy Map - Carlos Mendoza](assets/images/chapter2/empathy-map1.png)
+![Empathy Map - Carlos Mendoza](assets/images/ux-research/empathy-map-carlos-mendoza.svg)
 
 #### 2. Empathy Map del segundo segmento: Operadores y empresas de logística
 
@@ -775,7 +775,7 @@ El segundo Empathy Map corresponde a **Andrea Salazar**, coordinadora de operaci
 
 Sus principales preocupaciones están relacionadas con la dificultad para supervisar simultáneamente diferentes operaciones, la información dispersa entre distintos medios y la necesidad de obtener información actualizada cuando ocurre un retraso o incidencia. Como principales resultados esperados, busca centralizar la información de las operaciones, mejorar la trazabilidad de los recorridos y disponer de información que facilite la toma de decisiones.
 
-![Empathy Map - Andrea Salazar](assets/images/chapter2/empathy-map2.png)
+![Empathy Map - Andrea Salazar](assets/images/ux-research/empathy-map-andrea-salazar.svg)
 
 <div style="page-break-after: always;"></div>
 
@@ -784,33 +784,33 @@ Sus principales preocupaciones están relacionadas con la dificultad para superv
 
 ### 2.3.4. As-Is Scenario Mapping
 
-En esta sección se presentan los **As-Is Scenario Mapping** elaborados en **LucidChart** para los User Personas de cada segmento objetivo. Estos escenarios representan la manera en que los usuarios realizan actualmente sus actividades de supervisión y coordinación del transporte de carga **sin contar con TrackTruck**, permitiendo identificar sus acciones, pensamientos y emociones durante las diferentes etapas de una operación.
+En esta sección se presentan los **As-Is Scenario Maps** elaborados en **Miro** para los User Personas de cada segmento objetivo. Estos escenarios representan hipótesis preliminares sobre la manera en que los usuarios realizan actualmente sus actividades de supervisión y coordinación del transporte de carga **sin contar con TrackTruck**.
 
-Para su elaboración, el equipo inició con una etapa de preparación tomando como referencia los User Personas, las entrevistas y los hallazgos obtenidos durante el Needfinding. Posteriormente, se realizó una lluvia de ideas individual para identificar las principales actividades, pensamientos y emociones experimentadas por cada usuario. Los resultados fueron revisados en conjunto y agrupados en diferentes fases que representan el desarrollo de una operación de transporte.
+Para su elaboración se tomaron como referencia los User Personas y la información disponible en el informe. Las acciones, pensamientos y emociones se agruparon en cuatro fases para formar una cuadrícula de 16 celdas.
 
 Finalmente, se identificaron las áreas positivas, negativas y **blank areas** presentes durante la experiencia. Las áreas positivas representan situaciones que actualmente funcionan de manera adecuada; las negativas corresponden a dificultades, frustraciones o problemas experimentados por los usuarios; mientras que las blank areas representan aspectos sobre los cuales todavía es necesario obtener mayor información.
 
-Cada As-Is Scenario Mapping se encuentra organizado mediante las filas **Phases, Doing, Thinking y Feeling**.
+Cada As-Is Scenario Map se encuentra organizado mediante cuatro columnas y las filas **Phases, Doing, Thinking y Feeling**.
 
 #### 1. As-Is Scenario Mapping del primer segmento: Empresas de transporte de carga
 
 El primer escenario corresponde a **Carlos Mendoza**, supervisor de flota y representante del segmento de empresas de transporte de carga. El escenario representa el proceso actual que realiza para preparar un viaje, supervisar el recorrido de los vehículos, atender posibles incidencias y revisar el cumplimiento de la operación.
 
-Las fases identificadas para este escenario son **Preparación del viaje, Inicio del recorrido, Supervisión del recorrido, Gestión de incidencias y Finalización del viaje**.
+Las fases de este escenario son **Prepare trip, Start trip, Monitor route y Resolve and close**.
 
 Durante este proceso, Carlos debe consultar diferentes fuentes de información y mantener comunicación frecuente con los conductores para conocer el estado de las unidades. Los principales puntos negativos aparecen cuando necesita identificar rápidamente retrasos, paradas o incidencias y no dispone de toda la información de manera centralizada.
 
-![As-Is Scenario Mapping - Carlos Mendoza](assets/images/chapter2/as-is-scenario-map1.png)
+![As-Is Scenario Mapping - Carlos Mendoza](assets/images/ux-research/as-is-scenario-carlos-mendoza.svg)
 
 #### 2. As-Is Scenario Mapping del segundo segmento: Operadores y empresas de logística
 
 El segundo escenario corresponde a **Andrea Salazar**, coordinadora de operaciones y representante del segmento de operadores y empresas de logística. El escenario representa el proceso actual que realiza para coordinar diferentes operaciones de transporte, realizar seguimiento a los recorridos, gestionar problemas y verificar posteriormente el cumplimiento de las operaciones.
 
-Las fases identificadas para este escenario son **Planificación de operaciones, Coordinación del transporte, Seguimiento de operaciones, Gestión de incidencias y Evaluación de resultados**.
+Las fases de este escenario son **Plan operations, Coordinate dispatch, Monitor portfolio y Resolve and evaluate**.
 
 Durante este proceso, Andrea necesita consultar constantemente información sobre diferentes vehículos y recorridos, además de mantener comunicación con las personas involucradas en cada operación. Los principales puntos negativos se presentan cuando debe supervisar varias operaciones simultáneamente o cuando necesita obtener rápidamente información actualizada sobre un retraso o incidencia.
 
-![As-Is Scenario Mapping - Andrea Salazar](assets/images/chapter2/as-is-scenario-map2.png)
+![As-Is Scenario Mapping - Andrea Salazar](assets/images/ux-research/as-is-scenario-andrea-salazar.svg)
 
 <div style="page-break-after: always;"></div>
 
@@ -1164,6 +1164,8 @@ Git. (s. f.). *Git documentation*. https://git-scm.com/doc
 
 Lucid Software Inc. (s. f.). *Lucidchart*. https://www.lucidchart.com/
 
+Miro. (s. f.). *Miro visual workspace*. https://miro.com/
+
 Microsoft. (s. f.). *.NET documentation*. https://learn.microsoft.com/dotnet/
 
 Microsoft. (s. f.). *C# documentation*. https://learn.microsoft.com/dotnet/csharp/
@@ -1189,9 +1191,9 @@ UXPressia. (s. f.). *UXPressia*. https://uxpressia.com/
 | Actividad | Herramienta |
 |---|---|
 | User Personas | UXPressia |
-| Empathy Maps | UXPressia |
+| Empathy Maps | Miro |
 | Impact Map | UXPressia |
-| As-Is Scenario Mapping | LucidChart |
+| As-Is Scenario Mapping | Miro |
 | To-Be Scenario Mapping | LucidChart |
 | Control y gestión del proyecto | Trello |
 | Control de versiones | GitHub / Git |
@@ -1203,10 +1205,10 @@ UXPressia. (s. f.). *UXPressia*. https://uxpressia.com/
 
 | Recurso | Enlace |
 |---|---|
-| Repositorio de GitHub | [Ver repositorio](URL_GITHUB) |
+| Repositorio de GitHub | [Ver repositorio](https://github.com/1ASI0657-2620-15987-G4/tracktruck-report) |
 | Tablero de Trello | [Ver tablero](URL_TRELLO) |
 | User Personas - UXPressia | [Ver recurso](URL_UXPRESSIA_USER_PERSONAS) |
-| Empathy Maps - UXPressia | [Ver recurso](URL_UXPRESSIA_EMPATHY_MAPS) |
+| Empathy Maps - Miro | [Ver tablero](https://miro.com/app/board/uXjVHoFb36Q=/) |
 | Impact Map - UXPressia | [Ver recurso](URL_UXPRESSIA_IMPACT_MAP) |
-| As-Is Scenario Maps - LucidChart | [Ver recurso](URL_LUCIDCHART_AS_IS) |
+| As-Is Scenario Maps - Miro | [Ver tablero](https://miro.com/app/board/uXjVHoEqlmc=/) |
 | To-Be Scenario Maps - LucidChart | [Ver recurso](URL_LUCIDCHART_TO_BE) |
