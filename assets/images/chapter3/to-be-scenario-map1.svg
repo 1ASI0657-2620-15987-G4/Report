@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1060" viewBox="0 0 1800 1060"><rect width="1800" height="1060" fill="#F8FAFC"/>
+    <rect width="1800" height="154" fill="#172554"/>
+    <rect x="60" y="42" width="12" height="72" rx="6" fill="#F97316"/>
+    <text x="96" y="62" font-size="18" fill="#93C5FD" font-weight="800">FUTURE EXPERIENCE</text>
+    <text x="96" y="106" font-size="36" fill="#FFFFFF" font-weight="800">TO-BE Scenario Map</text>
+    <text x="1740" text-anchor="end" y="92" font-size="20" fill="#BFDBFE" font-weight="600">Carlos Mendoza · Fleet Supervisor</text>
+    <rect x="30" y="225" width="158" height="180" rx="18" fill="#172554"/>
+<text x="109" text-anchor="middle" y="321" font-size="18" fill="#FFFFFF" font-weight="800">PHASES</text>
+<rect x="210" y="225" width="294" height="180" rx="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="230" y="271" font-size="19" fill="#1E293B" font-weight="800">1. Prepare trip</text>
+<rect x="516" y="225" width="294" height="180" rx="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="536" y="271" font-size="19" fill="#1E293B" font-weight="800">2. Start route</text>
+<rect x="822" y="225" width="294" height="180" rx="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="842" y="271" font-size="19" fill="#1E293B" font-weight="800">3. Monitor live</text>
+<rect x="1128" y="225" width="294" height="180" rx="18" fill="#DBEAFE" stroke="#F97316" stroke-width="2"/>
+<text x="1148" y="271" font-size="19" fill="#1E293B" font-weight="800">4. Manage incident</text>
+<rect x="1434" y="225" width="294" height="180" rx="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="1454" y="271" font-size="19" fill="#1E293B" font-weight="800">5. Close trip</text>
+<rect x="30" y="415" width="158" height="180" rx="18" fill="#172554"/>
+<text x="109" text-anchor="middle" y="511" font-size="18" fill="#FFFFFF" font-weight="800">DOING</text>
+<rect x="210" y="415" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="230" y="461" font-size="17" fill="#1E293B" font-weight="500">Creates the operation</text>
+<text x="230" y="485" font-size="17" fill="#1E293B" font-weight="500">and assigns route,</text>
+<text x="230" y="509" font-size="17" fill="#1E293B" font-weight="500">vehicle and driver.</text>
+<rect x="516" y="415" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="536" y="461" font-size="17" fill="#1E293B" font-weight="500">Receives a verified</text>
+<text x="536" y="485" font-size="17" fill="#1E293B" font-weight="500">start event and sees the</text>
+<text x="536" y="509" font-size="17" fill="#1E293B" font-weight="500">active trip.</text>
+<rect x="822" y="415" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="842" y="461" font-size="17" fill="#1E293B" font-weight="500">Tracks location,</text>
+<text x="842" y="485" font-size="17" fill="#1E293B" font-weight="500">progress, stops and</text>
+<text x="842" y="509" font-size="17" fill="#1E293B" font-weight="500">route compliance.</text>
+<rect x="1128" y="415" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="1148" y="461" font-size="17" fill="#1E293B" font-weight="500">Reviews the alert,</text>
+<text x="1148" y="485" font-size="17" fill="#1E293B" font-weight="500">context and contacts the</text>
+<text x="1148" y="509" font-size="17" fill="#1E293B" font-weight="500">driver.</text>
+<rect x="1434" y="415" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="1454" y="461" font-size="17" fill="#1E293B" font-weight="500">Reviews timeline,</text>
+<text x="1454" y="485" font-size="17" fill="#1E293B" font-weight="500">incidents and final</text>
+<text x="1454" y="509" font-size="17" fill="#1E293B" font-weight="500">operation record.</text>
+<rect x="30" y="605" width="158" height="180" rx="18" fill="#172554"/>
+<text x="109" text-anchor="middle" y="701" font-size="18" fill="#FFFFFF" font-weight="800">THINKING</text>
+<rect x="210" y="605" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="230" y="651" font-size="17" fill="#1E293B" font-weight="500">Everything is connected</text>
+<text x="230" y="675" font-size="17" fill="#1E293B" font-weight="500">before departure.</text>
+<rect x="516" y="605" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="536" y="651" font-size="17" fill="#1E293B" font-weight="500">The plan and execution</text>
+<text x="536" y="675" font-size="17" fill="#1E293B" font-weight="500">match.</text>
+<rect x="822" y="605" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="842" y="651" font-size="17" fill="#1E293B" font-weight="500">I can focus on</text>
+<text x="842" y="675" font-size="17" fill="#1E293B" font-weight="500">exceptions instead of</text>
+<text x="842" y="699" font-size="17" fill="#1E293B" font-weight="500">calling.</text>
+<rect x="1128" y="605" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="1148" y="651" font-size="17" fill="#1E293B" font-weight="500">I have enough evidence</text>
+<text x="1148" y="675" font-size="17" fill="#1E293B" font-weight="500">to decide quickly.</text>
+<rect x="1434" y="605" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="1454" y="651" font-size="17" fill="#1E293B" font-weight="500">The history is complete</text>
+<text x="1454" y="675" font-size="17" fill="#1E293B" font-weight="500">and reusable.</text>
+<rect x="30" y="795" width="158" height="180" rx="18" fill="#172554"/>
+<text x="109" text-anchor="middle" y="891" font-size="18" fill="#FFFFFF" font-weight="800">FEELING</text>
+<rect x="210" y="795" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="230" y="841" font-size="17" fill="#1E293B" font-weight="500">Confident</text>
+<rect x="516" y="795" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="536" y="841" font-size="17" fill="#1E293B" font-weight="500">In control</text>
+<rect x="822" y="795" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="842" y="841" font-size="17" fill="#1E293B" font-weight="500">Focused</text>
+<rect x="1128" y="795" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="1148" y="841" font-size="17" fill="#1E293B" font-weight="500">Responsive</text>
+<rect x="1434" y="795" width="294" height="180" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="1454" y="841" font-size="17" fill="#1E293B" font-weight="500">Reassured</text>
+    <rect x="210" y="1000" width="1530" height="4" rx="2" fill="#2563EB"/>
+    <text x="210" y="972" font-size="18" fill="#64748B" font-weight="600">Outcome: fewer manual handoffs, faster decisions and a traceable operation history</text>
+  </svg>

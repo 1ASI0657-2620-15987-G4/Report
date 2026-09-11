@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000"><rect width="1800" height="1000" fill="#F8FAFC"/>
+    <rect width="1800" height="154" fill="#172554"/>
+    <rect x="60" y="42" width="12" height="72" rx="6" fill="#F97316"/>
+    <text x="96" y="62" font-size="18" fill="#93C5FD" font-weight="800">AV1 COLLABORATION</text>
+    <text x="96" y="106" font-size="36" fill="#FFFFFF" font-weight="800">Project Report Insights</text>
+    <text x="1740" text-anchor="end" y="92" font-size="20" fill="#BFDBFE" font-weight="600">LogiGo · TrackTruck</text>
+    <text x="60" y="214" font-size="24" fill="#1E293B" font-weight="700">Four contributors · one version-controlled report · shared product baseline</text>
+    <g><rect x="70" y="295" width="390" height="390" rx="28" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+      <circle cx="265" cy="405" r="66" fill="#DBEAFE"/>
+      <circle cx="265" cy="385" r="23" fill="#2563EB"/>
+      <path d="M220 455c8-43 31-62 45-62s37 19 45 62" fill="#2563EB"/>
+      <text x="265" text-anchor="middle" y="522" font-size="26" fill="#172554" font-weight="800">Jean Franck</text>
+      <text x="112" y="574" font-size="18" fill="#1E293B" font-weight="600">Product identity · UX maps</text>
+<text x="112" y="601" font-size="18" fill="#1E293B" font-weight="600">· repository structure</text>
+    </g>
+<g><rect x="495" y="295" width="390" height="390" rx="28" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+      <circle cx="690" cy="405" r="66" fill="#FFEDD5"/>
+      <circle cx="690" cy="385" r="23" fill="#F97316"/>
+      <path d="M645 455c8-43 31-62 45-62s37 19 45 62" fill="#F97316"/>
+      <text x="690" text-anchor="middle" y="522" font-size="26" fill="#172554" font-weight="800">Anhelo Rodrigo</text>
+      <text x="537" y="574" font-size="18" fill="#1E293B" font-weight="600">Competitive analysis ·</text>
+<text x="537" y="601" font-size="18" fill="#1E293B" font-weight="600">interview design</text>
+    </g>
+<g><rect x="920" y="295" width="390" height="390" rx="28" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+      <circle cx="1115" cy="405" r="66" fill="#DBEAFE"/>
+      <circle cx="1115" cy="385" r="23" fill="#2563EB"/>
+      <path d="M1070 455c8-43 31-62 45-62s37 19 45 62" fill="#2563EB"/>
+      <text x="1115" text-anchor="middle" y="522" font-size="26" fill="#172554" font-weight="800">Alexander Piero</text>
+      <text x="962" y="574" font-size="18" fill="#1E293B" font-weight="600">Personas · task matrix ·</text>
+<text x="962" y="601" font-size="18" fill="#1E293B" font-weight="600">empathy research</text>
+    </g>
+<g><rect x="1345" y="295" width="390" height="390" rx="28" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+      <circle cx="1540" cy="405" r="66" fill="#DBEAFE"/>
+      <circle cx="1540" cy="385" r="23" fill="#2563EB"/>
+      <path d="M1495 455c8-43 31-62 45-62s37 19 45 62" fill="#2563EB"/>
+      <text x="1540" text-anchor="middle" y="522" font-size="26" fill="#172554" font-weight="800">Sebastián</text>
+      <text x="1387" y="574" font-size="18" fill="#1E293B" font-weight="600">User Stories · acceptance</text>
+<text x="1387" y="601" font-size="18" fill="#1E293B" font-weight="600">criteria · prioritization</text>
+    </g>
+    <rect x="70" y="745" width="1660" height="150" rx="28" fill="#172554"/>
+    <text x="110" y="798" font-size="17" fill="#93C5FD" font-weight="800">CURRENT DELIVERY STATUS</text>
+    <text x="110" y="850" font-size="28" fill="#FFFFFF" font-weight="800">Chapters I–III and research artifacts prepared</text>
+    <text x="1690" text-anchor="end" y="830" font-size="16" fill="#FED7AA" font-weight="800">NEXT EVIDENCE</text>
+    <text x="1690" text-anchor="end" y="865" font-size="24" fill="#FFFFFF" font-weight="800">6 real interviews</text>
+  </svg>
